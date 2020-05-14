@@ -17,7 +17,7 @@ We are interested in health-related data sets because of the current pandemic th
 - How does geographical location affect access to healthcare?
 - What demographic of people are the most denied to healthcare?
 - What groups of people are more at risk of certain diseases?
--What determinants of health are most responsible for health care visits?
+- What determinants of health are most responsible for health care visits?
 
 We can look at data sets that may include information about these questions and analyze the data by looking through the different columns and rows to see how they relate to each other.
 
@@ -32,7 +32,7 @@ We can look at data sets that may include information about these questions and 
 
 - There are 1640 rows and 7 columns, which include a year, state, yes, no, category, condition, and location, in the data.
 
-- This data answers the question of how geographical location affects accessibility to healthcare.
+- This data answers the question of "how geographical location affects accessibility to healthcare?"
 
 
 [**Second Source**](https://dashboard.healthit.gov/datadashboard/documentation/hospital-public-health-reporting-documentation.php)
@@ -41,9 +41,9 @@ We can look at data sets that may include information about these questions and 
 
 - The Office of the National Coordinator for Health Information Technology and it was created by the Medicare EHR Incentive Program. The data was collected by attesting various hospitals that participated in the EHR Incentive Program.
 
-- The data has 156 rows and 10 columns
+- The data has 156 rows and 10 columns.
 
-- This data answers the question of how does geographical location affect access to healthcare?
+- This data answers the question of "how does geographical location affect access to healthcare?"
 
 
 [**Third Source**](https://www.kaggle.com/hhs/health-insurance)
@@ -53,4 +53,4 @@ We can look at data sets that may include information about these questions and 
 
 - There are 52 rows and 14 columns in the data.
 
-- This data answers the question of how geographical location affects accessibility and what specific demographic of people are the most denied to healthcare.
+- This data answers the question of "how geographical location affects accessibility" and "what specific demographic of people are the most denied to healthcare?"
