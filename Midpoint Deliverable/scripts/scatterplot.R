@@ -26,4 +26,3 @@ pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
   geom_point()
   return(plot_graph)
 }
-pneumonia_death_scatter_plot(new_dataset_df, Pneunomia.Deaths)
