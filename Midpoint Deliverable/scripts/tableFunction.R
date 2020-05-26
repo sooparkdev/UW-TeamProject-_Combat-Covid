@@ -1,6 +1,9 @@
 library(dplyr)
 
-get_table2 <- function(data) {
+health_data <- read.csv("data/us-deaths.csv"
+                        , stringsAsFactors = FALSE)
+
+get_table <- function(data) {
   dataset <- data %>%
     mutate(Covid_percent = round((COVID.19.Deaths /
                                     Total.Deaths) * 100, digits = 2),
@@ -21,3 +24,5 @@ get_table2 <- function(data) {
     head(10)
   return(dataset)
 }
+
+health_table <- get_table(health_data)
