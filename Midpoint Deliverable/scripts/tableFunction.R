@@ -1,0 +1,23 @@
+library(dplyr)
+
+get_table2 <- function(data) {
+  dataset <- data %>%
+    mutate(Covid_percent = round((COVID.19.Deaths /
+                                    Total.Deaths) * 100, digits = 2),
+           Pneunomia_percent = round((Pneumonia.Deaths /
+                                        Total.Deaths) * 100, digits = 2),
+           Influenza_percent = round((Influenza.Deaths /
+                                        Total.Deaths) * 100, digits = 2)) %>%
+    select(State, Covid_percent,
+           Pneunomia_percent, Influenza_percent) %>%
+    group_by(State) %>%
+    summarise(total_Covid_death_percentage = max(Covid_percent),
+              total_Pneumonia_death_percentage = max(Pneunomia_percent),
+              total_Influenza_death_percentage = max(Influenza_percent)) %>%
+    filter(!is.na(total_Covid_death_percentage),
+           !is.na(total_Influenza_death_percentage),
+           !is.na(total_Pneumonia_death_percentage)) %>%
+    arrange(-total_Covid_death_percentage) %>%
+    head(10)
+  return(dataset)
+}
