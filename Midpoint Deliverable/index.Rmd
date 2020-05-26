@@ -2,27 +2,28 @@
 title: "index"
 output: html_document
 ---
+```{r, echo = FALSE}
+source("tableFunction.R")
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+## Summary Information
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Aggregated Table
 
-```{r cars}
-summary(cars)
+```{r kable, echo = FALSE}
+library("knitr")
+knitr::kable(heath_table, 
+            col.names = c("State", "% of Covid-19 deaths", "% of Pneumonia deaths", "% of Influenza deaths"))
 ```
 
-## Including Plots
+This table displays the percentages of deaths that occurred from February 1st 2020 to May 16 2020. These percentages were derived from dividing the cause of death numbers with the total deaths. (It reveals what percentage of the deaths were caused by what illness.) These percentages are grouped by location/state and include people from all gender and ages. The table is ordered in descending order of Covid-19 death percentages. In this way, it is easier for us to observe which locations had the most Covid death ratios and compare it to the other causes of death.
+The table reveals to us that the highest percentages of Covid deaths were in New York City. About 40% of the deaths that occurred in the timeframe were due to Covid. Likewise, in most states, Covid is the leading cause of death among the three categories. 
 
-You can also embed plots, for example:
+## Chart 1
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## Chart 2
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Chart 3
