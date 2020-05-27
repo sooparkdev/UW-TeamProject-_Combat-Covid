@@ -23,10 +23,10 @@ get_table <- function(data) {
     # gets rid of na rows
     filter(!is.na(total_Covid_death_percentage),
            !is.na(total_Influenza_death_percentage),
-           !is.na(total_Pneumonia_death_percentage)) %>%
+           !is.na(total_Pneumonia_death_percentage), State != "United States") %>%
     # highest to lowest covid % and only top 10 values
     arrange(-total_Covid_death_percentage) %>%
-    head(10)
+    head(11)
   return(dataset)
 }
 
