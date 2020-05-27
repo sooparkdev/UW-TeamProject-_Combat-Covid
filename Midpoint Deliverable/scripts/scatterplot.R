@@ -13,7 +13,7 @@ library(lintr)
 
 # The purpose of this scatterplot is to clearly visualize
 # the amount of death caused by Pneumonia in each state.
-# Organizes the state in Alphabetical Order.
+# Organizes the state in Alphabetical order.
 
 pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
   filtered_df <- our_dataset_df %>%
@@ -28,4 +28,3 @@ pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
   geom_point()
   return(plot_graph)
 }
-pneumonia_death_scatter_plot(new_dataset_df, )
