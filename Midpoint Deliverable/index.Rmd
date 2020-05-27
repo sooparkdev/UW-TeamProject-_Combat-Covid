@@ -1,29 +1,70 @@
 ---
-title: "index"
+title: "Midpoint Deliverable Report"
 output: html_document
 ---
 ```{r, echo = FALSE}
+health_df <- read.csv("scripts/data/us-deaths.csv", stringsAsFactors = FALSE)
+source("scripts/summary.R")
 source("scripts/tableFunction.R")
-
+source("scripts/bargraph.R")
+source("scripts/scatterplot.R")
+source("scripts/piechart.R")
 ```
 
 ## Introduction
 
+In our project, we are exploring the death rates involving Covid-19, Influenza and Pneumonia across the US. The main purpose of using Covid-19 related data is to see the severity of the pandemic across the country. We specifically chose this dataset over other COVID-19 related datasets because this dataset was clearly organized by state, age group, and sex. This helped us extract necessary information as we were able to easily filter out important information that helped us create aggregate tables and charts that visualized the total death rate of such diseases.
+
+The data analyzed in this report is from [CDC](https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku?fbclid=IwAR3VbsTWlBjY4w8Rz8rpnO3Bv1w0zDrHkhM2hB5OXDrfvLFudwF1f1Kkbn8)
+
 ## Summary Information
+
+``` {r echo = FALSE, include = FALSE}
+library("knitr")
+health_list <- get_summary_info(health_df)
+
+```
+From 2/1/20 to 5/16/20, the state with the most deaths due to COVID 19 was found to be
+`r health_list[[1]]`. The state with the most overall deaths was found to be
+`r health_list[[2]]`. There are `r health_list[[3]]` deaths in Washington caused by COVID 19.
+The age group that has the most deaths in the US due to COVID 19 was found to be those who were `r health_list[[4]]`. Finally, the COVID 19 death percentage in the US is calculated to be `r health_list[[5]]`%.
+
 
 ## Aggregated Table
 
 ```{r kable, echo = FALSE}
-library("knitr")
-knitr::kable(heath_table, 
+knitr::kable(get_table(health_df), 
             col.names = c("State", "% of Covid-19 deaths", "% of Pneumonia deaths", "% of Influenza deaths"))
 ```
 
-This table displays the top 10 states with the percentages of deaths that occurred from February 1st 2020 to May 16 2020 and the US total's percentages as well. These percentages were derived from dividing the cause of death numbers with the total deaths. (It reveals what percentage of the deaths were caused by what illness.) These percentages are grouped by location/state and include people from all gender and ages. The table is ordered in descending order of Covid-19 death percentages. In this way, it is easier for us to observe which locations had the most Covid death ratios and compare it to the other causes of death.
+This table displays the **top 11 states or location with the percentages of deaths** that occurred from February 1st 2020 to May 16 2020 and the US total's percentages as well. These percentages were derived from dividing the cause of death numbers with the total deaths. (It reveals what percentage of the deaths were caused by what illness.) These percentages are grouped by location/state and include people from all gender and ages. The table is ordered in descending order of Covid-19 death percentages. In this way, it is easier for us to observe which locations had the most Covid death ratios and compare it to the other causes of death.
 The table reveals to us that the highest percentages of Covid deaths were in New York City. About 40% of the deaths that occurred in the timeframe were due to Covid. Likewise, in most states, Covid is the leading cause of death among the three categories. However, for the US total, Pneumonia is the leading cause of death. Also this table illustrates that the highest Covid death percentages are more towards the Eastern side of America.
 
-## Chart 1
+## Bar Chart
 
-## Chart 2
+```{r echo = FALSE, warning = FALSE}
+create_bar_chart(health_df)
+```
 
-## Chart 3
+A bar chart is effective at demonstrating variation among groups. Our data set provided information regarding COVID-19, pneumonia, and influenza individual and total combined deaths in the United States. In this case, we aimed to look at the variation of COVID-19 related deaths by age group. The bar graph was a good selection because it allowed me to distribute the age categories on the Y-axis and the COVID-19 deaths on the X-axis. Upon graphing this information, the bar chart demonstrated a very apparent death toll among older age groups (65 and older). Furthermore, the bar graph enables readers to view covid-19 deaths among genders. 
+
+## Scatter Plot
+
+```{r echo = FALSE, warning = FALSE}
+
+ pneumonia_death_scatter_plot(health_df)
+
+```
+
+The chart displays a scatter plot for the total number of Pneumonia Deaths by state. A Scatter plot was an appropriate option for displaying pneumonia death and state as it is easy to find out the state with a higher number of pneumonia deaths and low number of pneumonia deaths in one picture. Thus, it helps visualize which state was affected the most and least. Scatterplot was also a viable method instead of a bar graph as there are over 50 characters on the x-axis. Bar graphs take up space in width and this would make it so that the chart may look squished while a scatter plot takes the least amount of space while illustrating information accurately. Scatter plot made it possible to space things out horizontally, making it easier for users to identify the state. Thus, this scatter plot does not illustrate any correlation as the main focus we put on this scatter plot was to help visualize which state had the most and least pneumonia deaths. 
+
+## Pie Chart
+
+```{r echo = FALSE, warning = FALSE}
+
+create_pie_chart(health_df)
+
+```
+
+The pie chart above displays ten states in the US with the highest number of COVID deaths. Its purpose doesn't necessarily lie in _ranking the different states_ to expose their vulnerability, but in identifying the states which are being most affected by the pandemic to provide the basis for **analyzing the patterns/reasons** why they are and, in turn, provide measures accordingly. With that being said, the pie chart (angle encoding) was used to give the audience a quick visual of the top ten states with the highest number of COVID 19 deaths. Position or length encoding wasn’t necessary as we are not trying to compare the numerical values. The pie chart mainly reveals that states in the Northeastern area are generating the highest number of COVID deaths with New York as the leading state.  
+

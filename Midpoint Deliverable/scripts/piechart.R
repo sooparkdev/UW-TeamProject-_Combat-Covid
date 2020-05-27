@@ -1,8 +1,8 @@
-library("dplyr")
-library("ggplot2")
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("ggplot2"))
 
 create_pie_chart <- function(dataframe) {
-  filtered_df <- health_data %>%
+  filtered_df <- dataframe %>%
     group_by(State) %>%
     # filters redundant information
     filter(Age.group == "All Ages") %>%

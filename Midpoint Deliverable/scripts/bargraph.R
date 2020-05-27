@@ -1,18 +1,18 @@
-library("ggplot2")
-library("dplyr")
-library("tidyverse")
-library("ggthemes")
+suppressPackageStartupMessages(library("ggplot2"))
+suppressPackageStartupMessages(library("dplyr"))
+suppressPackageStartupMessages(library("tidyverse"))
+suppressPackageStartupMessages(library("ggthemes"))
 
 # creates bar chart filtering by age group, covid deaths, gender, and state
-create_bar_chart <- function(dataframe, col) {
+create_bar_chart <- function(dataframe) {
   filtered_df <- dataframe %>%
-    select(age_group, sex, covid_19_deaths, state) %>%
-    group_by(sex) %>%
-    filter(sex %in% c("Male", "Female")) %>%
-    filter(!is.na(covid_19_deaths)) %>%
-    filter(state != c("United States"))
+    select(Age.group, Sex, COVID.19.Deaths, State) %>%
+    group_by(Sex) %>%
+    filter(Sex %in% c("Male", "Female")) %>%
+    filter(!is.na(COVID.19.Deaths)) %>%
+    filter(State != c("United States"))
   graph <- ggplot(filtered_df,
-                  aes(x = age_group, y = covid_19_deaths, fill = sex)) +
+                  aes(x = Age.group, y = COVID.19.Deaths, fill = Sex)) +
     geom_bar(stat = "identity", width = .75) +
     coord_flip() +
     labs(

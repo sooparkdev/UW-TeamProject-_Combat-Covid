@@ -1,22 +1,14 @@
-install.packages("ggplot2")
-install.packages("plotly")
-install.packages("maps")
-install.packages("leaflet")
-library(ggplot2)
-library(plotly)
-library(dplyr)
-library(maps)
-library(leaflet)
-library(knitr)
-library(stringr)
-library(lintr)
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(stringr))
 
 # The purpose of this scatterplot is to clearly visualize
 # the amount of death caused by Pneumonia in each state.
 # Organizes the state in Alphabetical order.
 
-pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
-  filtered_df <- our_dataset_df %>%
+pneumonia_death_scatter_plot <- function(df) {
+  filtered_df <- df %>%
     filter(str_detect(State, "Total$"))
   new_dataset_df <- filtered_df[-1, ]
   plot_graph <-
