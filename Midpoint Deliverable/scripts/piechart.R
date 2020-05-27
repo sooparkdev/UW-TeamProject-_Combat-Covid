@@ -1,6 +1,8 @@
 library("dplyr")
 library("ggplot2")
 
+# creates pie chart using the COVID.19.Deaths column in the dataframe passed in
+# adds up the COVID 19 deaths by states and organize them in a descending order
 create_pie_chart <- function(dataframe) {
   filtered_df <- health_data %>%
     group_by(State) %>%
