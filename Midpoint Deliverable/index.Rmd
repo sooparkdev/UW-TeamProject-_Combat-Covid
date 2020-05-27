@@ -67,4 +67,3 @@ create_pie_chart(health_df)
 ```
 
 The pie chart above displays ten states in the US with the highest number of COVID deaths. Its purpose doesn't necessarily lie in _ranking the different states_ to expose their vulnerability, but in identifying the states which are being most affected by the pandemic to provide the basis for **analyzing the patterns/reasons** why they are and, in turn, provide measures accordingly. With that being said, the pie chart (angle encoding) was used to give the audience a quick visual of the top ten states with the highest number of COVID 19 deaths. Position or length encoding wasn’t necessary as we are not trying to compare the numerical values. The pie chart mainly reveals that states in the Northeastern area are generating the highest number of COVID deaths with New York as the leading state.  
-
