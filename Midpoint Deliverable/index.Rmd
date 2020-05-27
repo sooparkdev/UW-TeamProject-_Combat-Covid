@@ -3,7 +3,7 @@ title: "index"
 output: html_document
 ---
 ```{r, echo = FALSE}
-source("tableFunction.R")
+source("scripts/tableFunction.R")
 
 ```
 
