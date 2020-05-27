@@ -2,8 +2,8 @@ library("ggplot2")
 library("dplyr")
 library("tidyverse")
 library("ggthemes")
-library("lintr")
 
+# creates bar chart filtering by age group, covid deaths, gender, and state
 create_bar_chart <- function(dataframe, col) {
   filtered_df <- dataframe %>%
     select(age_group, sex, covid_19_deaths, state) %>%
