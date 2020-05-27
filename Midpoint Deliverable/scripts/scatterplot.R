@@ -11,7 +11,9 @@ library(knitr)
 library(stringr)
 library(lintr)
 
-our_dataset_df <- read.csv("info.dataset.csv", stringsAsFactors = FALSE)
+# The purpose of this scatterplot is to clearly visualize
+# the amount of death caused by Pneumonia in each state.
+# Organizes the state in Alphabetical Order.
 
 pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
   filtered_df <- our_dataset_df %>%
@@ -26,3 +28,4 @@ pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
   geom_point()
   return(plot_graph)
 }
+pneumonia_death_scatter_plot(new_dataset_df, )
