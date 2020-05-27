@@ -15,7 +15,7 @@ library(lintr)
 # the amount of death caused by Pneumonia in each state.
 # Organizes the state in Alphabetical order.
 
-pneumonia_death_scatter_plot <- function(new_dataset_df, pneumonia_death) {
+pneumonia_death_scatter_plot <- function(new_dataset_df) {
   filtered_df <- our_dataset_df %>%
     filter(str_detect(State, "Total$"))
   new_dataset_df <- filtered_df[-1, ]
