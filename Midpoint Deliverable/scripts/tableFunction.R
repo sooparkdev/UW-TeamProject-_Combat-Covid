@@ -1,8 +1,5 @@
 suppressPackageStartupMessages(library(dplyr))
 
-health_data <- read.csv("data/us-deaths.csv"
-                        , stringsAsFactors = FALSE)
-
 get_table <- function(data) {
   dataset <- data %>%
     # makes new columns for %
@@ -29,5 +26,3 @@ get_table <- function(data) {
     head(11)
   return(dataset)
 }
-
-health_table <- get_table(health_data)
