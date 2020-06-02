@@ -2,7 +2,7 @@
 # Dataframe with only the 'State' column
 states <- select(df_for_map, State)
 
-page_one <- tabPanel(
+page_one <- tabPanel("Interactive Map",
   sidebarLayout(
     
     # User input of the states
@@ -22,6 +22,6 @@ page_one <- tabPanel(
 )
 
 ui_page_one <- navbarPage (
-  h2("COVID somethin"), #rename these
+  "US Death Exploration", 
   page_one
 )

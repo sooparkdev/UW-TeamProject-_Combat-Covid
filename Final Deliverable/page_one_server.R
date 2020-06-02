@@ -23,44 +23,44 @@ df_for_map <- cbind(filtered_df, Latitude = us_coords$Latitude, Longitude = us_c
 
 server_page_one <- function(input, output) {
   
-  #Server for Interactive Map
-  #filter(df_for_map$State == input$state)
-  
-  
   output$usmap <- renderLeaflet({
+  
+  #Server for Interactive Map
+  state_of_interest <- df_for_map %>%
+  filter(df_for_map$State == input$state)
+  
   locations <- data.frame(
     label = paste(
-      "Covid-19 deaths:", df_for_map$COVID.19.Deaths, "<br>",
-      "Pneumonia deaths:", df_for_map$Pneumonia.Deaths, "<br>",
-      "Influenza deaths:", df_for_map$Influenza.Deaths, "<br>",
-      "Total deaths (includes other causes):", df_for_map$Total.Deaths
+      "Covid-19 Deaths:", state_of_interest$COVID.19.Deaths, "<br>",
+      "Pneumonia Deaths:", state_of_interest$Pneumonia.Deaths, "<br>",
+      "Influenza Deaths:", state_of_interest$Influenza.Deaths, "<br>",
+      "Total Deaths (includes other causes):", state_of_interest$Total.Deaths
     ),
-    latitude = df_for_map$Latitude,
-    longitude = df_for_map$Longitude
+    latitude = state_of_interest$Latitude,
+    longitude = state_of_interest$Longitude
   )
   
   map <- leaflet(data = locations) %>%
-    addProviderTiles("CartoDB.Positron") %>%
+    addTiles() %>%
+    #addProviderTiles("CartoDB.Positron") %>%
     setView(lng = -98.5556199, lat = 39.8097343, zoom = 4) %>%
-    addCircles(
-      lat = ~latitude,
-      lng = ~longitude,
+    # addCircles(
+    #   lat = ~latitude,
+    #   lng = ~longitude,
+    #   popup = ~label,
+    #   radius = ~ 50000,
+    #   stroke = FALSE,
+    #   opacity = 0.8,
+    # ) 
+    addMarkers(
+      lng = ~longitude, lat = ~latitude,
       popup = ~label,
-      radius = ~ 50000,
-      stroke = FALSE
-    )
+      #label = ~label
+      #labelOptions
+      
+      
+    ) 
   
   })
-  
-  # bins <- c(0, 10, 20, 50, 100, 200, 500, 1000, Inf)
-  # pal <- colorBin("YlOrRd", domain = states$density, bins = bins)
-  # 
-  # map %>% addPolygons(
-  #   fillColor = ~pal(density),
-  #   weight = 2,
-  #   opacity = 1,
-  #   color = "white",
-  #   dashArray = "3",
-  #   fillOpacity = 0.7)
   
 }
