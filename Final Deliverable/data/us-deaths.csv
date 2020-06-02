@@ -1,0 +1,1417 @@
+Start week,End Week,State,Sex,Age group,COVID-19 Deaths,Pneumonia Deaths,Influenza Deaths,Total Deaths
+2/1/20,5/16/20,United States,All Sexes,Under 1 year,3,41,13,4651
+2/1/20,5/16/20,United States,All Sexes,1-4 years,2,36,38,899
+2/1/20,5/16/20,United States,All Sexes,5-14 years,7,43,44,1335
+2/1/20,5/16/20,United States,All Sexes,15-24 years,76,173,46,8165
+2/1/20,5/16/20,United States,All Sexes,25-34 years,463,619,138,17447
+2/1/20,5/16/20,United States,All Sexes,35-44 years,1186,1402,218,25039
+2/1/20,5/16/20,United States,All Sexes,45-54 years,3338,3723,542,48308
+2/1/20,5/16/20,United States,All Sexes,55-64 years,8312,10658,1154,115249
+2/1/20,5/16/20,United States,All Sexes,65-74 years,14447,18387,1359,178278
+2/1/20,5/16/20,United States,All Sexes,75-84 years,18621,24195,1377,223254
+2/1/20,5/16/20,United States,All Sexes,85 years and over,22543,28167,1294,284444
+2/1/20,5/16/20,United States,All Sexes Total,All Ages,68998,87444,6223,907069
+2/1/20,5/16/20,United States,Male,Under 1 year,2,29,7,2567
+2/1/20,5/16/20,United States,Male,1-4 years,1,20,22,507
+2/1/20,5/16/20,United States,Male,5-14 years,5,20,18,792
+2/1/20,5/16/20,United States,Male,15-24 years,51,105,24,6038
+2/1/20,5/16/20,United States,Male,25-34 years,318,380,71,12113
+2/1/20,5/16/20,United States,Male,35-44 years,862,915,115,16360
+2/1/20,5/16/20,United States,Male,45-54 years,2370,2332,320,30079
+2/1/20,5/16/20,United States,Male,55-64 years,5522,6484,660,70708
+2/1/20,5/16/20,United States,Male,65-74 years,9090,10990,752,103435
+2/1/20,5/16/20,United States,Male,75-84 years,10358,13395,681,116074
+2/1/20,5/16/20,United States,Male,85 years and over,9132,12356,526,110142
+2/1/20,5/16/20,United States,Male Total,"Male, all ages",37711,47026,3196,468815
+2/1/20,5/16/20,United States,Female,Under 1 year,1,12,6,2078
+2/1/20,5/16/20,United States,Female,1-4 years,1,16,16,392
+2/1/20,5/16/20,United States,Female,5-14 years,2,23,26,543
+2/1/20,5/16/20,United States,Female,15-24 years,25,68,22,2126
+2/1/20,5/16/20,United States,Female,25-34 years,145,239,67,5333
+2/1/20,5/16/20,United States,Female,35-44 years,324,487,103,8676
+2/1/20,5/16/20,United States,Female,45-54 years,968,1391,222,18227
+2/1/20,5/16/20,United States,Female,55-64 years,2790,4174,494,44540
+2/1/20,5/16/20,United States,Female,65-74 years,5357,7397,607,74840
+2/1/20,5/16/20,United States,Female,75-84 years,8263,10800,696,107176
+2/1/20,5/16/20,United States,Female,85 years and over,13410,15810,768,174291
+2/1/20,5/16/20,United States,Female Total,"Female, all ages",31286,40417,3027,438222
+2/1/20,5/16/20,United States,Unknown,All ages,1,1,0,32
+2/1/20,5/16/20,United States Total,All sexes,All Ages,68998,87444,6223,907069
+2/1/20,5/16/20,Alabama,Male,Under 1 year,0,0,,42
+2/1/20,5/16/20,Alabama,Male,1-4 years,0,0,0,12
+2/1/20,5/16/20,Alabama,Male,5-14 years,0,0,0,18
+2/1/20,5/16/20,Alabama,Male,15-24 years,0,,,121
+2/1/20,5/16/20,Alabama,Male,25-34 years,,,,203
+2/1/20,5/16/20,Alabama,Male,35-44 years,,15,,305
+2/1/20,5/16/20,Alabama,Male,45-54 years,21,27,,589
+2/1/20,5/16/20,Alabama,Male,55-64 years,27,90,15,1381
+2/1/20,5/16/20,Alabama,Male,65-74 years,59,138,14,1927
+2/1/20,5/16/20,Alabama,Male,75-84 years,55,166,,1981
+2/1/20,5/16/20,Alabama,Male,85 years and over,52,107,,1455
+2/1/20,5/16/20,Alabama,Male Total,"Male, all ages",217,550,53,8034
+2/1/20,5/16/20,Alabama,Female,Under 1 year,0,0,0,32
+2/1/20,5/16/20,Alabama,Female,1-4 years,0,0,,13
+2/1/20,5/16/20,Alabama,Female,5-14 years,0,,0,11
+2/1/20,5/16/20,Alabama,Female,15-24 years,0,,0,45
+2/1/20,5/16/20,Alabama,Female,25-34 years,,,,97
+2/1/20,5/16/20,Alabama,Female,35-44 years,,,,175
+2/1/20,5/16/20,Alabama,Female,45-54 years,,23,,389
+2/1/20,5/16/20,Alabama,Female,55-64 years,22,82,,929
+2/1/20,5/16/20,Alabama,Female,65-74 years,39,85,11,1456
+2/1/20,5/16/20,Alabama,Female,75-84 years,50,125,,1950
+2/1/20,5/16/20,Alabama,Female,85 years and over,39,120,,2400
+2/1/20,5/16/20,Alabama,Female Total,"Female, all ages",162,446,35,7497
+2/1/20,5/16/20,Alabama,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Alabama Total,All sexes,All Ages,379,996,88,15531
+2/1/20,5/16/20,Alaska,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Alaska,Male,1-4 years,0,0,0,0
+2/1/20,5/16/20,Alaska,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Alaska,Male,15-24 years,0,0,0,22
+2/1/20,5/16/20,Alaska,Male,25-34 years,0,0,0,24
+2/1/20,5/16/20,Alaska,Male,35-44 years,0,,0,29
+2/1/20,5/16/20,Alaska,Male,45-54 years,0,0,0,51
+2/1/20,5/16/20,Alaska,Male,55-64 years,0,,0,115
+2/1/20,5/16/20,Alaska,Male,65-74 years,,,0,143
+2/1/20,5/16/20,Alaska,Male,75-84 years,0,,,160
+2/1/20,5/16/20,Alaska,Male,85 years and over,,10,,99
+2/1/20,5/16/20,Alaska,Male Total,"Male, all ages",,34,,654
+2/1/20,5/16/20,Alaska,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Alaska,Female,1-4 years,0,,,
+2/1/20,5/16/20,Alaska,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Alaska,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Alaska,Female,25-34 years,,,0,17
+2/1/20,5/16/20,Alaska,Female,35-44 years,0,0,0,28
+2/1/20,5/16/20,Alaska,Female,45-54 years,,,0,28
+2/1/20,5/16/20,Alaska,Female,55-64 years,,,0,72
+2/1/20,5/16/20,Alaska,Female,65-74 years,,,,105
+2/1/20,5/16/20,Alaska,Female,75-84 years,0,,0,98
+2/1/20,5/16/20,Alaska,Female,85 years and over,0,,0,110
+2/1/20,5/16/20,Alaska,Female Total,"Female, all ages",,20,,471
+2/1/20,5/16/20,Alaska,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Alaska Total,All sexes,All Ages,,54,,1125
+2/1/20,5/16/20,Arizona,Male,Under 1 year,0,,,56
+2/1/20,5/16/20,Arizona,Male,1-4 years,0,,,17
+2/1/20,5/16/20,Arizona,Male,5-14 years,0,0,,21
+2/1/20,5/16/20,Arizona,Male,15-24 years,,0,0,219
+2/1/20,5/16/20,Arizona,Male,25-34 years,,,,338
+2/1/20,5/16/20,Arizona,Male,35-44 years,,16,,384
+2/1/20,5/16/20,Arizona,Male,45-54 years,13,34,,661
+2/1/20,5/16/20,Arizona,Male,55-64 years,31,104,13,1480
+2/1/20,5/16/20,Arizona,Male,65-74 years,45,182,14,2325
+2/1/20,5/16/20,Arizona,Male,75-84 years,90,248,12,2817
+2/1/20,5/16/20,Arizona,Male,85 years and over,91,200,10,2444
+2/1/20,5/16/20,Arizona,Male Total,"Male, all ages",284,794,60,10762
+2/1/20,5/16/20,Arizona,Female,Under 1 year,0,,0,58
+2/1/20,5/16/20,Arizona,Female,1-4 years,0,,0,18
+2/1/20,5/16/20,Arizona,Female,5-14 years,0,0,0,17
+2/1/20,5/16/20,Arizona,Female,15-24 years,0,,0,61
+2/1/20,5/16/20,Arizona,Female,25-34 years,,11,,155
+2/1/20,5/16/20,Arizona,Female,35-44 years,,11,,198
+2/1/20,5/16/20,Arizona,Female,45-54 years,13,27,,347
+2/1/20,5/16/20,Arizona,Female,55-64 years,23,86,,941
+2/1/20,5/16/20,Arizona,Female,65-74 years,45,133,15,1676
+2/1/20,5/16/20,Arizona,Female,75-84 years,56,190,10,2447
+2/1/20,5/16/20,Arizona,Female,85 years and over,89,226,,3317
+2/1/20,5/16/20,Arizona,Female Total,"Female, all ages",230,689,49,9235
+2/1/20,5/16/20,Arizona,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Arizona Total,All sexes,All Ages,514,1483,109,19997
+2/1/20,5/16/20,Arkansas,Male,Under 1 year,0,,0,39
+2/1/20,5/16/20,Arkansas,Male,1-4 years,0,0,,
+2/1/20,5/16/20,Arkansas,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Arkansas,Male,15-24 years,,,,75
+2/1/20,5/16/20,Arkansas,Male,25-34 years,,,,135
+2/1/20,5/16/20,Arkansas,Male,35-44 years,0,13,,186
+2/1/20,5/16/20,Arkansas,Male,45-54 years,,17,,342
+2/1/20,5/16/20,Arkansas,Male,55-64 years,,56,11,844
+2/1/20,5/16/20,Arkansas,Male,65-74 years,,78,10,1204
+2/1/20,5/16/20,Arkansas,Male,75-84 years,17,103,,1284
+2/1/20,5/16/20,Arkansas,Male,85 years and over,,91,,933
+2/1/20,5/16/20,Arkansas,Male Total,"Male, all ages",39,365,39,5058
+2/1/20,5/16/20,Arkansas,Female,Under 1 year,0,0,0,22
+2/1/20,5/16/20,Arkansas,Female,1-4 years,0,0,,10
+2/1/20,5/16/20,Arkansas,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Arkansas,Female,15-24 years,0,,,29
+2/1/20,5/16/20,Arkansas,Female,25-34 years,0,,0,73
+2/1/20,5/16/20,Arkansas,Female,35-44 years,,,,119
+2/1/20,5/16/20,Arkansas,Female,45-54 years,0,19,,245
+2/1/20,5/16/20,Arkansas,Female,55-64 years,,44,,538
+2/1/20,5/16/20,Arkansas,Female,65-74 years,,56,10,880
+2/1/20,5/16/20,Arkansas,Female,75-84 years,,77,,1207
+2/1/20,5/16/20,Arkansas,Female,85 years and over,17,94,,1549
+2/1/20,5/16/20,Arkansas,Female Total,"Female, all ages",31,300,35,4677
+2/1/20,5/16/20,Arkansas,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Arkansas Total,All sexes,All Ages,70,665,74,9735
+2/1/20,5/16/20,California,Male,Under 1 year,0,,0,263
+2/1/20,5/16/20,California,Male,1-4 years,0,,,52
+2/1/20,5/16/20,California,Male,5-14 years,0,,,75
+2/1/20,5/16/20,California,Male,15-24 years,,17,,690
+2/1/20,5/16/20,California,Male,25-34 years,16,37,,1291
+2/1/20,5/16/20,California,Male,35-44 years,45,97,10,1608
+2/1/20,5/16/20,California,Male,45-54 years,95,191,33,2892
+2/1/20,5/16/20,California,Male,55-64 years,186,510,68,6509
+2/1/20,5/16/20,California,Male,65-74 years,305,901,60,9241
+2/1/20,5/16/20,California,Male,75-84 years,357,1144,56,10458
+2/1/20,5/16/20,California,Male,85 years and over,310,1189,51,11598
+2/1/20,5/16/20,California,Male Total,"Male, all ages",1315,4096,294,44677
+2/1/20,5/16/20,California,Female,Under 1 year,0,,,208
+2/1/20,5/16/20,California,Female,1-4 years,0,,0,32
+2/1/20,5/16/20,California,Female,5-14 years,0,,,54
+2/1/20,5/16/20,California,Female,15-24 years,,12,,216
+2/1/20,5/16/20,California,Female,25-34 years,,17,,477
+2/1/20,5/16/20,California,Female,35-44 years,17,46,,771
+2/1/20,5/16/20,California,Female,45-54 years,37,124,20,1655
+2/1/20,5/16/20,California,Female,55-64 years,81,314,46,3884
+2/1/20,5/16/20,California,Female,65-74 years,155,566,47,6326
+2/1/20,5/16/20,California,Female,75-84 years,233,871,69,9464
+2/1/20,5/16/20,California,Female,85 years and over,458,1505,62,16897
+2/1/20,5/16/20,California,Female Total,"Female, all ages",985,3462,266,39984
+2/1/20,5/16/20,California,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,California Total,All sexes,All Ages,2300,7558,560,84662
+2/1/20,5/16/20,Colorado,Male,Under 1 year,0,0,0,51
+2/1/20,5/16/20,Colorado,Male,1-4 years,0,0,,
+2/1/20,5/16/20,Colorado,Male,5-14 years,0,0,0,19
+2/1/20,5/16/20,Colorado,Male,15-24 years,,,,141
+2/1/20,5/16/20,Colorado,Male,25-34 years,,,0,246
+2/1/20,5/16/20,Colorado,Male,35-44 years,,16,,330
+2/1/20,5/16/20,Colorado,Male,45-54 years,29,30,,477
+2/1/20,5/16/20,Colorado,Male,55-64 years,53,86,10,1038
+2/1/20,5/16/20,Colorado,Male,65-74 years,121,184,10,1523
+2/1/20,5/16/20,Colorado,Male,75-84 years,162,216,,1676
+2/1/20,5/16/20,Colorado,Male,85 years and over,186,190,10,1663
+2/1/20,5/16/20,Colorado,Male Total,"Male, all ages",564,730,46,7170
+2/1/20,5/16/20,Colorado,Female,Under 1 year,0,,0,50
+2/1/20,5/16/20,Colorado,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Colorado,Female,5-14 years,0,0,,
+2/1/20,5/16/20,Colorado,Female,15-24 years,,,0,52
+2/1/20,5/16/20,Colorado,Female,25-34 years,0,,0,108
+2/1/20,5/16/20,Colorado,Female,35-44 years,,,,147
+2/1/20,5/16/20,Colorado,Female,45-54 years,,21,,284
+2/1/20,5/16/20,Colorado,Female,55-64 years,23,57,11,652
+2/1/20,5/16/20,Colorado,Female,65-74 years,74,93,,1047
+2/1/20,5/16/20,Colorado,Female,75-84 years,115,156,,1456
+2/1/20,5/16/20,Colorado,Female,85 years and over,211,249,13,2569
+2/1/20,5/16/20,Colorado,Female Total,"Female, all ages",437,589,47,6379
+2/1/20,5/16/20,Colorado,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Colorado Total,All sexes,All Ages,1001,1319,93,13549
+2/1/20,5/16/20,Connecticut,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Connecticut,Male,1-4 years,0,0,,
+2/1/20,5/16/20,Connecticut,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Connecticut,Male,15-24 years,0,0,0,11
+2/1/20,5/16/20,Connecticut,Male,25-34 years,,,,41
+2/1/20,5/16/20,Connecticut,Male,35-44 years,,,0,55
+2/1/20,5/16/20,Connecticut,Male,45-54 years,13,,,96
+2/1/20,5/16/20,Connecticut,Male,55-64 years,32,16,,234
+2/1/20,5/16/20,Connecticut,Male,65-74 years,83,41,,399
+2/1/20,5/16/20,Connecticut,Male,75-84 years,91,47,,481
+2/1/20,5/16/20,Connecticut,Male,85 years and over,122,80,,603
+2/1/20,5/16/20,Connecticut,Male Total,"Male, all ages",348,194,26,1928
+2/1/20,5/16/20,Connecticut,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Connecticut,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Connecticut,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Connecticut,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Connecticut,Female,25-34 years,,,,14
+2/1/20,5/16/20,Connecticut,Female,35-44 years,,,0,36
+2/1/20,5/16/20,Connecticut,Female,45-54 years,,0,,55
+2/1/20,5/16/20,Connecticut,Female,55-64 years,19,10,,139
+2/1/20,5/16/20,Connecticut,Female,65-74 years,46,27,,251
+2/1/20,5/16/20,Connecticut,Female,75-84 years,86,42,,432
+2/1/20,5/16/20,Connecticut,Female,85 years and over,167,79,,903
+2/1/20,5/16/20,Connecticut,Female Total,"Female, all ages",324,160,25,1849
+2/1/20,5/16/20,Connecticut,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Connecticut Total,All sexes,All Ages,672,354,51,3782
+2/1/20,5/16/20,Delaware,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Delaware,Male,1-4 years,0,0,0,0
+2/1/20,5/16/20,Delaware,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Delaware,Male,15-24 years,0,,0,12
+2/1/20,5/16/20,Delaware,Male,25-34 years,,,0,26
+2/1/20,5/16/20,Delaware,Male,35-44 years,0,0,0,41
+2/1/20,5/16/20,Delaware,Male,45-54 years,,,0,67
+2/1/20,5/16/20,Delaware,Male,55-64 years,,10,0,172
+2/1/20,5/16/20,Delaware,Male,65-74 years,22,27,,292
+2/1/20,5/16/20,Delaware,Male,75-84 years,26,19,,334
+2/1/20,5/16/20,Delaware,Male,85 years and over,24,27,,346
+2/1/20,5/16/20,Delaware,Male Total,"Male, all ages",84,88,,1298
+2/1/20,5/16/20,Delaware,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Delaware,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Delaware,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Delaware,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Delaware,Female,25-34 years,,,0,12
+2/1/20,5/16/20,Delaware,Female,35-44 years,0,0,,27
+2/1/20,5/16/20,Delaware,Female,45-54 years,,,0,40
+2/1/20,5/16/20,Delaware,Female,55-64 years,12,13,,140
+2/1/20,5/16/20,Delaware,Female,65-74 years,14,18,,242
+2/1/20,5/16/20,Delaware,Female,75-84 years,22,31,,368
+2/1/20,5/16/20,Delaware,Female,85 years and over,47,48,,551
+2/1/20,5/16/20,Delaware,Female Total,"Female, all ages",101,117,11,1399
+2/1/20,5/16/20,Delaware,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Delaware Total,All sexes,All Ages,185,205,15,2697
+2/1/20,5/16/20,District of Columbia,Male,Under 1 year,0,0,0,11
+2/1/20,5/16/20,District of Columbia,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,District of Columbia,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,District of Columbia,Male,15-24 years,0,,0,21
+2/1/20,5/16/20,District of Columbia,Male,25-34 years,,,0,50
+2/1/20,5/16/20,District of Columbia,Male,35-44 years,,,0,55
+2/1/20,5/16/20,District of Columbia,Male,45-54 years,14,16,,82
+2/1/20,5/16/20,District of Columbia,Male,55-64 years,21,31,,203
+2/1/20,5/16/20,District of Columbia,Male,65-74 years,42,62,,264
+2/1/20,5/16/20,District of Columbia,Male,75-84 years,28,45,0,190
+2/1/20,5/16/20,District of Columbia,Male,85 years and over,21,27,0,171
+2/1/20,5/16/20,District of Columbia,Male Total,"Male, all ages",129,190,,1056
+2/1/20,5/16/20,District of Columbia,Female,Under 1 year,0,0,,13
+2/1/20,5/16/20,District of Columbia,Female,1-4 years,0,0,,
+2/1/20,5/16/20,District of Columbia,Female,5-14 years,0,0,,
+2/1/20,5/16/20,District of Columbia,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,District of Columbia,Female,25-34 years,0,0,0,15
+2/1/20,5/16/20,District of Columbia,Female,35-44 years,0,,0,27
+2/1/20,5/16/20,District of Columbia,Female,45-54 years,,10,0,59
+2/1/20,5/16/20,District of Columbia,Female,55-64 years,,17,0,121
+2/1/20,5/16/20,District of Columbia,Female,65-74 years,22,42,,174
+2/1/20,5/16/20,District of Columbia,Female,75-84 years,15,32,0,181
+2/1/20,5/16/20,District of Columbia,Female,85 years and over,26,40,0,284
+2/1/20,5/16/20,District of Columbia,Female Total,"Female, all ages",76,142,,889
+2/1/20,5/16/20,District of Columbia,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,District of Columbia Total,All sexes,All Ages,205,332,,1945
+2/1/20,5/16/20,Florida,Male,Under 1 year,0,,0,183
+2/1/20,5/16/20,Florida,Male,1-4 years,0,,,39
+2/1/20,5/16/20,Florida,Male,5-14 years,0,,,63
+2/1/20,5/16/20,Florida,Male,15-24 years,0,,,460
+2/1/20,5/16/20,Florida,Male,25-34 years,,20,,917
+2/1/20,5/16/20,Florida,Male,35-44 years,22,51,,1187
+2/1/20,5/16/20,Florida,Male,45-54 years,47,117,19,2046
+2/1/20,5/16/20,Florida,Male,55-64 years,113,338,29,4947
+2/1/20,5/16/20,Florida,Male,65-74 years,233,688,34,7619
+2/1/20,5/16/20,Florida,Male,75-84 years,287,881,34,9202
+2/1/20,5/16/20,Florida,Male,85 years and over,218,720,16,8685
+2/1/20,5/16/20,Florida,Male Total,"Male, all ages",928,2831,150,35348
+2/1/20,5/16/20,Florida,Female,Under 1 year,0,,,165
+2/1/20,5/16/20,Florida,Female,1-4 years,0,,0,35
+2/1/20,5/16/20,Florida,Female,5-14 years,0,,,37
+2/1/20,5/16/20,Florida,Female,15-24 years,0,,,169
+2/1/20,5/16/20,Florida,Female,25-34 years,,19,,426
+2/1/20,5/16/20,Florida,Female,35-44 years,,37,,668
+2/1/20,5/16/20,Florida,Female,45-54 years,19,87,12,1317
+2/1/20,5/16/20,Florida,Female,55-64 years,45,238,22,3039
+2/1/20,5/16/20,Florida,Female,65-74 years,136,438,38,5240
+2/1/20,5/16/20,Florida,Female,75-84 years,206,630,34,7694
+2/1/20,5/16/20,Florida,Female,85 years and over,261,761,26,12318
+2/1/20,5/16/20,Florida,Female Total,"Female, all ages",678,2218,147,31108
+2/1/20,5/16/20,Florida,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Florida Total,All sexes,All Ages,1606,5049,297,66461
+2/1/20,5/16/20,Georgia,Male,Under 1 year,0,,0,65
+2/1/20,5/16/20,Georgia,Male,1-4 years,0,0,,26
+2/1/20,5/16/20,Georgia,Male,5-14 years,0,0,0,26
+2/1/20,5/16/20,Georgia,Male,15-24 years,0,,,191
+2/1/20,5/16/20,Georgia,Male,25-34 years,11,,0,317
+2/1/20,5/16/20,Georgia,Male,35-44 years,,17,,437
+2/1/20,5/16/20,Georgia,Male,45-54 years,37,48,,894
+2/1/20,5/16/20,Georgia,Male,55-64 years,92,145,,2219
+2/1/20,5/16/20,Georgia,Male,65-74 years,168,255,10,3079
+2/1/20,5/16/20,Georgia,Male,75-84 years,160,318,,3143
+2/1/20,5/16/20,Georgia,Male,85 years and over,95,201,,2356
+2/1/20,5/16/20,Georgia,Male Total,"Male, all ages",571,993,46,12753
+2/1/20,5/16/20,Georgia,Female,Under 1 year,0,0,0,49
+2/1/20,5/16/20,Georgia,Female,1-4 years,0,0,,17
+2/1/20,5/16/20,Georgia,Female,5-14 years,0,,,17
+2/1/20,5/16/20,Georgia,Female,15-24 years,,,0,64
+2/1/20,5/16/20,Georgia,Female,25-34 years,,,,139
+2/1/20,5/16/20,Georgia,Female,35-44 years,,18,,276
+2/1/20,5/16/20,Georgia,Female,45-54 years,24,49,,663
+2/1/20,5/16/20,Georgia,Female,55-64 years,67,113,12,1536
+2/1/20,5/16/20,Georgia,Female,65-74 years,98,176,12,2396
+2/1/20,5/16/20,Georgia,Female,75-84 years,155,241,14,3127
+2/1/20,5/16/20,Georgia,Female,85 years and over,152,261,,4057
+2/1/20,5/16/20,Georgia,Female Total,"Female, all ages",509,870,56,12341
+2/1/20,5/16/20,Georgia,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Georgia Total,All sexes,All Ages,1080,1863,102,25094
+2/1/20,5/16/20,Hawaii,Male,Under 1 year,0,0,0,10
+2/1/20,5/16/20,Hawaii,Male,1-4 years,0,0,0,0
+2/1/20,5/16/20,Hawaii,Male,5-14 years,0,,0,
+2/1/20,5/16/20,Hawaii,Male,15-24 years,0,,0,19
+2/1/20,5/16/20,Hawaii,Male,25-34 years,0,,0,32
+2/1/20,5/16/20,Hawaii,Male,35-44 years,0,,0,53
+2/1/20,5/16/20,Hawaii,Male,45-54 years,,,0,117
+2/1/20,5/16/20,Hawaii,Male,55-64 years,,,,275
+2/1/20,5/16/20,Hawaii,Male,65-74 years,,21,,414
+2/1/20,5/16/20,Hawaii,Male,75-84 years,,31,,438
+2/1/20,5/16/20,Hawaii,Male,85 years and over,,54,,499
+2/1/20,5/16/20,Hawaii,Male Total,"Male, all ages",10,122,13,1862
+2/1/20,5/16/20,Hawaii,Female,Under 1 year,0,0,0,11
+2/1/20,5/16/20,Hawaii,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Hawaii,Female,5-14 years,0,,0,
+2/1/20,5/16/20,Hawaii,Female,15-24 years,0,0,0,11
+2/1/20,5/16/20,Hawaii,Female,25-34 years,0,,0,16
+2/1/20,5/16/20,Hawaii,Female,35-44 years,0,0,0,18
+2/1/20,5/16/20,Hawaii,Female,45-54 years,,,0,66
+2/1/20,5/16/20,Hawaii,Female,55-64 years,0,15,,148
+2/1/20,5/16/20,Hawaii,Female,65-74 years,0,20,,247
+2/1/20,5/16/20,Hawaii,Female,75-84 years,,17,0,300
+2/1/20,5/16/20,Hawaii,Female,85 years and over,,49,,783
+2/1/20,5/16/20,Hawaii,Female Total,"Female, all ages",,107,,1604
+2/1/20,5/16/20,Hawaii,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Hawaii Total,All sexes,All Ages,15,229,19,3466
+2/1/20,5/16/20,Idaho,Male,Under 1 year,0,0,0,15
+2/1/20,5/16/20,Idaho,Male,1-4 years,0,,0,
+2/1/20,5/16/20,Idaho,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Idaho,Male,15-24 years,0,0,0,37
+2/1/20,5/16/20,Idaho,Male,25-34 years,0,0,0,44
+2/1/20,5/16/20,Idaho,Male,35-44 years,0,0,,82
+2/1/20,5/16/20,Idaho,Male,45-54 years,0,,0,134
+2/1/20,5/16/20,Idaho,Male,55-64 years,,15,,289
+2/1/20,5/16/20,Idaho,Male,65-74 years,,27,,496
+2/1/20,5/16/20,Idaho,Male,75-84 years,15,36,,595
+2/1/20,5/16/20,Idaho,Male,85 years and over,10,29,,533
+2/1/20,5/16/20,Idaho,Male Total,"Male, all ages",37,111,12,2234
+2/1/20,5/16/20,Idaho,Female,Under 1 year,0,0,0,16
+2/1/20,5/16/20,Idaho,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Idaho,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Idaho,Female,15-24 years,0,0,,
+2/1/20,5/16/20,Idaho,Female,25-34 years,0,0,0,27
+2/1/20,5/16/20,Idaho,Female,35-44 years,0,,0,36
+2/1/20,5/16/20,Idaho,Female,45-54 years,0,,0,75
+2/1/20,5/16/20,Idaho,Female,55-64 years,0,16,,212
+2/1/20,5/16/20,Idaho,Female,65-74 years,,27,,359
+2/1/20,5/16/20,Idaho,Female,75-84 years,,27,,534
+2/1/20,5/16/20,Idaho,Female,85 years and over,18,38,,786
+2/1/20,5/16/20,Idaho,Female Total,"Female, all ages",31,113,12,2056
+2/1/20,5/16/20,Idaho,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Idaho Total,All sexes,All Ages,68,224,24,4290
+2/1/20,5/16/20,Illinois,Male,Under 1 year,0,,0,100
+2/1/20,5/16/20,Illinois,Male,1-4 years,0,0,,19
+2/1/20,5/16/20,Illinois,Male,5-14 years,0,0,0,29
+2/1/20,5/16/20,Illinois,Male,15-24 years,,,0,265
+2/1/20,5/16/20,Illinois,Male,25-34 years,17,16,,490
+2/1/20,5/16/20,Illinois,Male,35-44 years,43,40,,658
+2/1/20,5/16/20,Illinois,Male,45-54 years,108,120,,1171
+2/1/20,5/16/20,Illinois,Male,55-64 years,221,264,15,2928
+2/1/20,5/16/20,Illinois,Male,65-74 years,376,447,15,4077
+2/1/20,5/16/20,Illinois,Male,75-84 years,407,555,18,4481
+2/1/20,5/16/20,Illinois,Male,85 years and over,323,542,14,4533
+2/1/20,5/16/20,Illinois,Male Total,"Male, all ages",1498,1988,70,18751
+2/1/20,5/16/20,Illinois,Female,Under 1 year,0,0,0,82
+2/1/20,5/16/20,Illinois,Female,1-4 years,0,0,0,11
+2/1/20,5/16/20,Illinois,Female,5-14 years,0,,,20
+2/1/20,5/16/20,Illinois,Female,15-24 years,,0,,90
+2/1/20,5/16/20,Illinois,Female,25-34 years,,11,,204
+2/1/20,5/16/20,Illinois,Female,35-44 years,18,29,,353
+2/1/20,5/16/20,Illinois,Female,45-54 years,50,60,,687
+2/1/20,5/16/20,Illinois,Female,55-64 years,102,182,15,1784
+2/1/20,5/16/20,Illinois,Female,65-74 years,198,326,15,3007
+2/1/20,5/16/20,Illinois,Female,75-84 years,297,474,27,4336
+2/1/20,5/16/20,Illinois,Female,85 years and over,518,746,37,7491
+2/1/20,5/16/20,Illinois,Female Total,"Female, all ages",1193,1830,104,18065
+2/1/20,5/16/20,Illinois,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Illinois Total,All sexes,All Ages,2691,3818,174,36816
+2/1/20,5/16/20,Indiana,Male,Under 1 year,0,,0,56
+2/1/20,5/16/20,Indiana,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Indiana,Male,5-14 years,0,0,0,18
+2/1/20,5/16/20,Indiana,Male,15-24 years,,,0,114
+2/1/20,5/16/20,Indiana,Male,25-34 years,,,0,256
+2/1/20,5/16/20,Indiana,Male,35-44 years,,22,,317
+2/1/20,5/16/20,Indiana,Male,45-54 years,17,42,,640
+2/1/20,5/16/20,Indiana,Male,55-64 years,82,150,10,1703
+2/1/20,5/16/20,Indiana,Male,65-74 years,171,271,13,2378
+2/1/20,5/16/20,Indiana,Male,75-84 years,198,330,15,2701
+2/1/20,5/16/20,Indiana,Male,85 years and over,169,272,11,2313
+2/1/20,5/16/20,Indiana,Male Total,"Male, all ages",643,1098,58,10505
+2/1/20,5/16/20,Indiana,Female,Under 1 year,0,0,0,56
+2/1/20,5/16/20,Indiana,Female,1-4 years,0,0,,
+2/1/20,5/16/20,Indiana,Female,5-14 years,0,0,,
+2/1/20,5/16/20,Indiana,Female,15-24 years,0,,0,40
+2/1/20,5/16/20,Indiana,Female,25-34 years,,,,116
+2/1/20,5/16/20,Indiana,Female,35-44 years,,,0,158
+2/1/20,5/16/20,Indiana,Female,45-54 years,15,43,,431
+2/1/20,5/16/20,Indiana,Female,55-64 years,41,100,,1088
+2/1/20,5/16/20,Indiana,Female,65-74 years,98,192,13,1845
+2/1/20,5/16/20,Indiana,Female,75-84 years,163,268,13,2607
+2/1/20,5/16/20,Indiana,Female,85 years and over,246,349,24,4062
+2/1/20,5/16/20,Indiana,Female Total,"Female, all ages",569,966,67,10419
+2/1/20,5/16/20,Indiana,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Indiana Total,All sexes,All Ages,1212,2064,125,20924
+2/1/20,5/16/20,Iowa,Male,Under 1 year,0,0,,16
+2/1/20,5/16/20,Iowa,Male,1-4 years,0,,0,
+2/1/20,5/16/20,Iowa,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Iowa,Male,15-24 years,0,0,,53
+2/1/20,5/16/20,Iowa,Male,25-34 years,0,,0,77
+2/1/20,5/16/20,Iowa,Male,35-44 years,,,0,107
+2/1/20,5/16/20,Iowa,Male,45-54 years,,10,,239
+2/1/20,5/16/20,Iowa,Male,55-64 years,18,45,,642
+2/1/20,5/16/20,Iowa,Male,65-74 years,36,78,,1016
+2/1/20,5/16/20,Iowa,Male,75-84 years,32,92,,1183
+2/1/20,5/16/20,Iowa,Male,85 years and over,39,106,,1302
+2/1/20,5/16/20,Iowa,Male Total,"Male, all ages",135,339,32,4650
+2/1/20,5/16/20,Iowa,Female,Under 1 year,0,0,0,11
+2/1/20,5/16/20,Iowa,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Iowa,Female,5-14 years,0,,0,
+2/1/20,5/16/20,Iowa,Female,15-24 years,0,0,0,14
+2/1/20,5/16/20,Iowa,Female,25-34 years,0,,,32
+2/1/20,5/16/20,Iowa,Female,35-44 years,0,0,0,53
+2/1/20,5/16/20,Iowa,Female,45-54 years,,,,135
+2/1/20,5/16/20,Iowa,Female,55-64 years,13,28,,426
+2/1/20,5/16/20,Iowa,Female,65-74 years,17,53,12,690
+2/1/20,5/16/20,Iowa,Female,75-84 years,24,75,12,1035
+2/1/20,5/16/20,Iowa,Female,85 years and over,49,145,21,2053
+2/1/20,5/16/20,Iowa,Female Total,"Female, all ages",108,312,51,4452
+2/1/20,5/16/20,Iowa,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Iowa Total,All sexes,All Ages,243,651,83,9103
+2/1/20,5/16/20,Kansas,Male,Under 1 year,0,0,0,33
+2/1/20,5/16/20,Kansas,Male,1-4 years,0,,0,
+2/1/20,5/16/20,Kansas,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Kansas,Male,15-24 years,0,,0,57
+2/1/20,5/16/20,Kansas,Male,25-34 years,,,,99
+2/1/20,5/16/20,Kansas,Male,35-44 years,0,,,126
+2/1/20,5/16/20,Kansas,Male,45-54 years,,,,242
+2/1/20,5/16/20,Kansas,Male,55-64 years,13,36,,599
+2/1/20,5/16/20,Kansas,Male,65-74 years,14,64,,894
+2/1/20,5/16/20,Kansas,Male,75-84 years,19,74,13,981
+2/1/20,5/16/20,Kansas,Male,85 years and over,24,104,,1094
+2/1/20,5/16/20,Kansas,Male Total,"Male, all ages",76,297,42,4136
+2/1/20,5/16/20,Kansas,Female,Under 1 year,0,0,0,21
+2/1/20,5/16/20,Kansas,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Kansas,Female,5-14 years,0,,0,
+2/1/20,5/16/20,Kansas,Female,15-24 years,0,,0,27
+2/1/20,5/16/20,Kansas,Female,25-34 years,,0,,36
+2/1/20,5/16/20,Kansas,Female,35-44 years,,,0,85
+2/1/20,5/16/20,Kansas,Female,45-54 years,,,,148
+2/1/20,5/16/20,Kansas,Female,55-64 years,12,23,,417
+2/1/20,5/16/20,Kansas,Female,65-74 years,10,50,,655
+2/1/20,5/16/20,Kansas,Female,75-84 years,14,63,15,911
+2/1/20,5/16/20,Kansas,Female,85 years and over,40,124,13,1616
+2/1/20,5/16/20,Kansas,Female Total,"Female, all ages",82,272,45,3919
+2/1/20,5/16/20,Kansas,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Kansas Total,All sexes,All Ages,158,569,87,8055
+2/1/20,5/16/20,Kentucky,Male,Under 1 year,0,0,0,28
+2/1/20,5/16/20,Kentucky,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Kentucky,Male,5-14 years,0,0,0,10
+2/1/20,5/16/20,Kentucky,Male,15-24 years,0,,0,84
+2/1/20,5/16/20,Kentucky,Male,25-34 years,0,,,165
+2/1/20,5/16/20,Kentucky,Male,35-44 years,,15,,284
+2/1/20,5/16/20,Kentucky,Male,45-54 years,,35,,509
+2/1/20,5/16/20,Kentucky,Male,55-64 years,21,94,,1237
+2/1/20,5/16/20,Kentucky,Male,65-74 years,35,157,12,1635
+2/1/20,5/16/20,Kentucky,Male,75-84 years,32,195,,1666
+2/1/20,5/16/20,Kentucky,Male,85 years and over,19,125,10,1240
+2/1/20,5/16/20,Kentucky,Male Total,"Male, all ages",115,627,46,6862
+2/1/20,5/16/20,Kentucky,Female,Under 1 year,0,0,0,21
+2/1/20,5/16/20,Kentucky,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Kentucky,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Kentucky,Female,15-24 years,0,0,,31
+2/1/20,5/16/20,Kentucky,Female,25-34 years,0,,,78
+2/1/20,5/16/20,Kentucky,Female,35-44 years,0,11,,139
+2/1/20,5/16/20,Kentucky,Female,45-54 years,,24,,369
+2/1/20,5/16/20,Kentucky,Female,55-64 years,16,72,11,829
+2/1/20,5/16/20,Kentucky,Female,65-74 years,20,115,11,1287
+2/1/20,5/16/20,Kentucky,Female,75-84 years,41,175,,1706
+2/1/20,5/16/20,Kentucky,Female,85 years and over,68,205,12,2092
+2/1/20,5/16/20,Kentucky,Female Total,"Female, all ages",148,605,47,6560
+2/1/20,5/16/20,Kentucky,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Kentucky Total,All sexes,All Ages,263,1232,93,13423
+2/1/20,5/16/20,Louisiana,Male,Under 1 year,0,0,0,44
+2/1/20,5/16/20,Louisiana,Male,1-4 years,0,0,0,10
+2/1/20,5/16/20,Louisiana,Male,5-14 years,0,,0,16
+2/1/20,5/16/20,Louisiana,Male,15-24 years,,,0,90
+2/1/20,5/16/20,Louisiana,Male,25-34 years,,,,188
+2/1/20,5/16/20,Louisiana,Male,35-44 years,24,21,,266
+2/1/20,5/16/20,Louisiana,Male,45-54 years,59,32,,512
+2/1/20,5/16/20,Louisiana,Male,55-64 years,137,105,,1225
+2/1/20,5/16/20,Louisiana,Male,65-74 years,214,174,11,1750
+2/1/20,5/16/20,Louisiana,Male,75-84 years,279,215,,1808
+2/1/20,5/16/20,Louisiana,Male,85 years and over,181,169,,1411
+2/1/20,5/16/20,Louisiana,Male Total,"Male, all ages",901,728,32,7320
+2/1/20,5/16/20,Louisiana,Female,Under 1 year,0,0,0,31
+2/1/20,5/16/20,Louisiana,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Louisiana,Female,5-14 years,0,0,0,10
+2/1/20,5/16/20,Louisiana,Female,15-24 years,,,,42
+2/1/20,5/16/20,Louisiana,Female,25-34 years,,,0,90
+2/1/20,5/16/20,Louisiana,Female,35-44 years,19,14,,169
+2/1/20,5/16/20,Louisiana,Female,45-54 years,28,19,,332
+2/1/20,5/16/20,Louisiana,Female,55-64 years,98,82,,857
+2/1/20,5/16/20,Louisiana,Female,65-74 years,129,111,,1348
+2/1/20,5/16/20,Louisiana,Female,75-84 years,221,181,,1818
+2/1/20,5/16/20,Louisiana,Female,85 years and over,230,203,,2356
+2/1/20,5/16/20,Louisiana,Female Total,"Female, all ages",733,621,38,7060
+2/1/20,5/16/20,Louisiana,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Louisiana Total,All sexes,All Ages,1634,1349,70,14380
+2/1/20,5/16/20,Maine,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Maine,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Maine,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Maine,Male,15-24 years,0,0,0,23
+2/1/20,5/16/20,Maine,Male,25-34 years,0,0,0,53
+2/1/20,5/16/20,Maine,Male,35-44 years,,,,79
+2/1/20,5/16/20,Maine,Male,45-54 years,0,,,147
+2/1/20,5/16/20,Maine,Male,55-64 years,,15,,359
+2/1/20,5/16/20,Maine,Male,65-74 years,11,46,,517
+2/1/20,5/16/20,Maine,Male,75-84 years,,54,,573
+2/1/20,5/16/20,Maine,Male,85 years and over,10,73,,640
+2/1/20,5/16/20,Maine,Male Total,"Male, all ages",35,194,16,2405
+2/1/20,5/16/20,Maine,Female,Under 1 year,0,0,0,12
+2/1/20,5/16/20,Maine,Female,1-4 years,0,0,,
+2/1/20,5/16/20,Maine,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Maine,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Maine,Female,25-34 years,0,,0,25
+2/1/20,5/16/20,Maine,Female,35-44 years,0,,0,34
+2/1/20,5/16/20,Maine,Female,45-54 years,,,0,75
+2/1/20,5/16/20,Maine,Female,55-64 years,0,12,0,183
+2/1/20,5/16/20,Maine,Female,65-74 years,,26,,380
+2/1/20,5/16/20,Maine,Female,75-84 years,10,44,,560
+2/1/20,5/16/20,Maine,Female,85 years and over,18,76,,917
+2/1/20,5/16/20,Maine,Female Total,"Female, all ages",34,169,15,2194
+2/1/20,5/16/20,Maine,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Maine Total,All sexes,All Ages,69,363,31,4599
+2/1/20,5/16/20,Maryland,Male,Under 1 year,0,0,0,40
+2/1/20,5/16/20,Maryland,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Maryland,Male,5-14 years,0,0,0,10
+2/1/20,5/16/20,Maryland,Male,15-24 years,0,,0,125
+2/1/20,5/16/20,Maryland,Male,25-34 years,14,12,,282
+2/1/20,5/16/20,Maryland,Male,35-44 years,24,19,,357
+2/1/20,5/16/20,Maryland,Male,45-54 years,40,37,,559
+2/1/20,5/16/20,Maryland,Male,55-64 years,122,110,12,1385
+2/1/20,5/16/20,Maryland,Male,65-74 years,170,182,,1853
+2/1/20,5/16/20,Maryland,Male,75-84 years,249,282,13,2100
+2/1/20,5/16/20,Maryland,Male,85 years and over,209,249,17,2076
+2/1/20,5/16/20,Maryland,Male Total,"Male, all ages",828,893,57,8789
+2/1/20,5/16/20,Maryland,Female,Under 1 year,0,0,0,47
+2/1/20,5/16/20,Maryland,Female,1-4 years,0,,0,
+2/1/20,5/16/20,Maryland,Female,5-14 years,0,,0,11
+2/1/20,5/16/20,Maryland,Female,15-24 years,,,0,35
+2/1/20,5/16/20,Maryland,Female,25-34 years,,,,133
+2/1/20,5/16/20,Maryland,Female,35-44 years,,,0,185
+2/1/20,5/16/20,Maryland,Female,45-54 years,24,26,,348
+2/1/20,5/16/20,Maryland,Female,55-64 years,69,73,13,885
+2/1/20,5/16/20,Maryland,Female,65-74 years,151,167,15,1481
+2/1/20,5/16/20,Maryland,Female,75-84 years,233,234,16,2152
+2/1/20,5/16/20,Maryland,Female,85 years and over,344,361,16,3524
+2/1/20,5/16/20,Maryland,Female Total,"Female, all ages",832,877,64,8808
+2/1/20,5/16/20,Maryland,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Maryland Total,All sexes,All Ages,1660,1770,121,17597
+2/1/20,5/16/20,Massachusetts,Male,Under 1 year,0,0,0,37
+2/1/20,5/16/20,Massachusetts,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Massachusetts,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Massachusetts,Male,15-24 years,,,0,77
+2/1/20,5/16/20,Massachusetts,Male,25-34 years,,,,246
+2/1/20,5/16/20,Massachusetts,Male,35-44 years,19,15,,355
+2/1/20,5/16/20,Massachusetts,Male,45-54 years,49,34,,596
+2/1/20,5/16/20,Massachusetts,Male,55-64 years,196,174,16,1490
+2/1/20,5/16/20,Massachusetts,Male,65-74 years,445,356,18,2370
+2/1/20,5/16/20,Massachusetts,Male,75-84 years,723,530,25,3065
+2/1/20,5/16/20,Massachusetts,Male,85 years and over,905,624,20,3529
+2/1/20,5/16/20,Massachusetts,Male Total,"Male, all ages",2346,1740,87,11778
+2/1/20,5/16/20,Massachusetts,Female,Under 1 year,0,0,0,32
+2/1/20,5/16/20,Massachusetts,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Massachusetts,Female,5-14 years,0,,0,
+2/1/20,5/16/20,Massachusetts,Female,15-24 years,0,0,,41
+2/1/20,5/16/20,Massachusetts,Female,25-34 years,,,,104
+2/1/20,5/16/20,Massachusetts,Female,35-44 years,,,0,169
+2/1/20,5/16/20,Massachusetts,Female,45-54 years,39,24,,337
+2/1/20,5/16/20,Massachusetts,Female,55-64 years,102,90,,856
+2/1/20,5/16/20,Massachusetts,Female,65-74 years,269,208,10,1638
+2/1/20,5/16/20,Massachusetts,Female,75-84 years,654,462,19,2937
+2/1/20,5/16/20,Massachusetts,Female,85 years and over,1482,828,29,6027
+2/1/20,5/16/20,Massachusetts,Female Total,"Female, all ages",2556,1626,71,12152
+2/1/20,5/16/20,Massachusetts,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Massachusetts Total,All sexes,All Ages,4902,3366,158,23930
+2/1/20,5/16/20,Michigan,Male,Under 1 year,0,,0,85
+2/1/20,5/16/20,Michigan,Male,1-4 years,0,0,,
+2/1/20,5/16/20,Michigan,Male,5-14 years,0,0,0,22
+2/1/20,5/16/20,Michigan,Male,15-24 years,,,0,164
+2/1/20,5/16/20,Michigan,Male,25-34 years,19,17,,370
+2/1/20,5/16/20,Michigan,Male,35-44 years,36,29,,512
+2/1/20,5/16/20,Michigan,Male,45-54 years,141,108,11,1076
+2/1/20,5/16/20,Michigan,Male,55-64 years,248,264,17,2483
+2/1/20,5/16/20,Michigan,Male,65-74 years,481,495,33,3774
+2/1/20,5/16/20,Michigan,Male,75-84 years,540,613,22,4294
+2/1/20,5/16/20,Michigan,Male,85 years and over,405,463,18,4020
+2/1/20,5/16/20,Michigan,Male Total,"Male, all ages",1872,1996,108,16807
+2/1/20,5/16/20,Michigan,Female,Under 1 year,0,0,0,81
+2/1/20,5/16/20,Michigan,Female,1-4 years,0,0,,13
+2/1/20,5/16/20,Michigan,Female,5-14 years,,0,,15
+2/1/20,5/16/20,Michigan,Female,15-24 years,,,,60
+2/1/20,5/16/20,Michigan,Female,25-34 years,10,,,176
+2/1/20,5/16/20,Michigan,Female,35-44 years,16,20,,285
+2/1/20,5/16/20,Michigan,Female,45-54 years,61,63,,631
+2/1/20,5/16/20,Michigan,Female,55-64 years,159,170,25,1628
+2/1/20,5/16/20,Michigan,Female,65-74 years,370,392,29,2899
+2/1/20,5/16/20,Michigan,Female,75-84 years,431,472,29,4019
+2/1/20,5/16/20,Michigan,Female,85 years and over,618,666,23,6627
+2/1/20,5/16/20,Michigan,Female Total,"Female, all ages",1668,1793,123,16434
+2/1/20,5/16/20,Michigan,Unknown,All ages,,,0,
+2/1/20,5/16/20,Michigan Total,All sexes,All Ages,3541,3790,231,33245
+2/1/20,5/16/20,Minnesota,Male,Under 1 year,0,0,0,45
+2/1/20,5/16/20,Minnesota,Male,1-4 years,0,,0,13
+2/1/20,5/16/20,Minnesota,Male,5-14 years,0,,0,
+2/1/20,5/16/20,Minnesota,Male,15-24 years,0,,0,71
+2/1/20,5/16/20,Minnesota,Male,25-34 years,0,,,141
+2/1/20,5/16/20,Minnesota,Male,35-44 years,,,,196
+2/1/20,5/16/20,Minnesota,Male,45-54 years,,22,,362
+2/1/20,5/16/20,Minnesota,Male,55-64 years,27,59,,947
+2/1/20,5/16/20,Minnesota,Male,65-74 years,54,105,15,1449
+2/1/20,5/16/20,Minnesota,Male,75-84 years,83,167,13,1823
+2/1/20,5/16/20,Minnesota,Male,85 years and over,115,181,11,2012
+2/1/20,5/16/20,Minnesota,Male Total,"Male, all ages",286,548,57,7068
+2/1/20,5/16/20,Minnesota,Female,Under 1 year,0,0,0,28
+2/1/20,5/16/20,Minnesota,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Minnesota,Female,5-14 years,0,,0,
+2/1/20,5/16/20,Minnesota,Female,15-24 years,0,,0,23
+2/1/20,5/16/20,Minnesota,Female,25-34 years,,,,74
+2/1/20,5/16/20,Minnesota,Female,35-44 years,,,,130
+2/1/20,5/16/20,Minnesota,Female,45-54 years,,14,,230
+2/1/20,5/16/20,Minnesota,Female,55-64 years,18,46,13,610
+2/1/20,5/16/20,Minnesota,Female,65-74 years,36,77,12,1091
+2/1/20,5/16/20,Minnesota,Female,75-84 years,76,122,11,1673
+2/1/20,5/16/20,Minnesota,Female,85 years and over,148,261,16,3253
+2/1/20,5/16/20,Minnesota,Female Total,"Female, all ages",285,531,60,7126
+2/1/20,5/16/20,Minnesota,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Minnesota Total,All sexes,All Ages,571,1079,117,14194
+2/1/20,5/16/20,Mississippi,Male,Under 1 year,0,0,0,22
+2/1/20,5/16/20,Mississippi,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Mississippi,Male,5-14 years,0,,0,17
+2/1/20,5/16/20,Mississippi,Male,15-24 years,0,,0,72
+2/1/20,5/16/20,Mississippi,Male,25-34 years,,,,156
+2/1/20,5/16/20,Mississippi,Male,35-44 years,,15,,222
+2/1/20,5/16/20,Mississippi,Male,45-54 years,14,20,,384
+2/1/20,5/16/20,Mississippi,Male,55-64 years,32,105,,907
+2/1/20,5/16/20,Mississippi,Male,65-74 years,57,135,,1230
+2/1/20,5/16/20,Mississippi,Male,75-84 years,52,108,,1216
+2/1/20,5/16/20,Mississippi,Male,85 years and over,31,82,,864
+2/1/20,5/16/20,Mississippi,Male Total,"Male, all ages",192,473,28,5099
+2/1/20,5/16/20,Mississippi,Female,Under 1 year,0,0,0,16
+2/1/20,5/16/20,Mississippi,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Mississippi,Female,5-14 years,0,0,,12
+2/1/20,5/16/20,Mississippi,Female,15-24 years,0,0,0,23
+2/1/20,5/16/20,Mississippi,Female,25-34 years,,,,52
+2/1/20,5/16/20,Mississippi,Female,35-44 years,,10,,141
+2/1/20,5/16/20,Mississippi,Female,45-54 years,,29,,264
+2/1/20,5/16/20,Mississippi,Female,55-64 years,25,63,,589
+2/1/20,5/16/20,Mississippi,Female,65-74 years,40,104,,933
+2/1/20,5/16/20,Mississippi,Female,75-84 years,41,116,,1225
+2/1/20,5/16/20,Mississippi,Female,85 years and over,62,130,,1452
+2/1/20,5/16/20,Mississippi,Female Total,"Female, all ages",182,454,23,4712
+2/1/20,5/16/20,Mississippi,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Mississippi Total,All sexes,All Ages,374,927,51,9811
+2/1/20,5/16/20,Missouri,Male,Under 1 year,0,,0,44
+2/1/20,5/16/20,Missouri,Male,1-4 years,0,0,,10
+2/1/20,5/16/20,Missouri,Male,5-14 years,0,,0,18
+2/1/20,5/16/20,Missouri,Male,15-24 years,0,,,116
+2/1/20,5/16/20,Missouri,Male,25-34 years,0,,,242
+2/1/20,5/16/20,Missouri,Male,35-44 years,0,,,329
+2/1/20,5/16/20,Missouri,Male,45-54 years,10,33,,606
+2/1/20,5/16/20,Missouri,Male,55-64 years,34,108,17,1550
+2/1/20,5/16/20,Missouri,Male,65-74 years,52,155,14,2262
+2/1/20,5/16/20,Missouri,Male,75-84 years,67,172,20,2480
+2/1/20,5/16/20,Missouri,Male,85 years and over,54,174,14,2131
+2/1/20,5/16/20,Missouri,Male Total,"Male, all ages",217,658,85,9788
+2/1/20,5/16/20,Missouri,Female,Under 1 year,0,,0,45
+2/1/20,5/16/20,Missouri,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Missouri,Female,5-14 years,0,0,,15
+2/1/20,5/16/20,Missouri,Female,15-24 years,,0,,42
+2/1/20,5/16/20,Missouri,Female,25-34 years,,,,100
+2/1/20,5/16/20,Missouri,Female,35-44 years,,12,,185
+2/1/20,5/16/20,Missouri,Female,45-54 years,,16,,389
+2/1/20,5/16/20,Missouri,Female,55-64 years,23,64,10,950
+2/1/20,5/16/20,Missouri,Female,65-74 years,41,106,17,1690
+2/1/20,5/16/20,Missouri,Female,75-84 years,55,159,32,2322
+2/1/20,5/16/20,Missouri,Female,85 years and over,95,211,19,3363
+2/1/20,5/16/20,Missouri,Female Total,"Female, all ages",219,570,86,9105
+2/1/20,5/16/20,Missouri,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Missouri Total,All sexes,All Ages,436,1228,171,18893
+2/1/20,5/16/20,Montana,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Montana,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Montana,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Montana,Male,15-24 years,0,0,0,22
+2/1/20,5/16/20,Montana,Male,25-34 years,0,0,,37
+2/1/20,5/16/20,Montana,Male,35-44 years,0,,,51
+2/1/20,5/16/20,Montana,Male,45-54 years,,,,87
+2/1/20,5/16/20,Montana,Male,55-64 years,0,,,218
+2/1/20,5/16/20,Montana,Male,65-74 years,,22,,398
+2/1/20,5/16/20,Montana,Male,75-84 years,,30,,414
+2/1/20,5/16/20,Montana,Male,85 years and over,,34,,406
+2/1/20,5/16/20,Montana,Male Total,"Male, all ages",,102,17,1644
+2/1/20,5/16/20,Montana,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Montana,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,Montana,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Montana,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Montana,Female,25-34 years,0,0,0,24
+2/1/20,5/16/20,Montana,Female,35-44 years,0,,0,24
+2/1/20,5/16/20,Montana,Female,45-54 years,0,0,0,42
+2/1/20,5/16/20,Montana,Female,55-64 years,0,,,137
+2/1/20,5/16/20,Montana,Female,65-74 years,,21,,244
+2/1/20,5/16/20,Montana,Female,75-84 years,,14,,282
+2/1/20,5/16/20,Montana,Female,85 years and over,,24,,553
+2/1/20,5/16/20,Montana,Female Total,"Female, all ages",,64,17,1321
+2/1/20,5/16/20,Montana,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Montana Total,All sexes,All Ages,16,166,34,2965
+2/1/20,5/16/20,Nebraska,Male,Under 1 year,0,0,0,19
+2/1/20,5/16/20,Nebraska,Male,1-4 years,0,0,0,0
+2/1/20,5/16/20,Nebraska,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Nebraska,Male,15-24 years,0,,0,29
+2/1/20,5/16/20,Nebraska,Male,25-34 years,,,,61
+2/1/20,5/16/20,Nebraska,Male,35-44 years,,,0,57
+2/1/20,5/16/20,Nebraska,Male,45-54 years,,,,117
+2/1/20,5/16/20,Nebraska,Male,55-64 years,,31,,346
+2/1/20,5/16/20,Nebraska,Male,65-74 years,,32,,509
+2/1/20,5/16/20,Nebraska,Male,75-84 years,13,43,,598
+2/1/20,5/16/20,Nebraska,Male,85 years and over,,57,,626
+2/1/20,5/16/20,Nebraska,Male Total,"Male, all ages",39,176,11,2366
+2/1/20,5/16/20,Nebraska,Female,Under 1 year,0,0,0,11
+2/1/20,5/16/20,Nebraska,Female,1-4 years,0,0,,
+2/1/20,5/16/20,Nebraska,Female,5-14 years,0,,,
+2/1/20,5/16/20,Nebraska,Female,15-24 years,0,0,0,12
+2/1/20,5/16/20,Nebraska,Female,25-34 years,,,0,20
+2/1/20,5/16/20,Nebraska,Female,35-44 years,0,,0,41
+2/1/20,5/16/20,Nebraska,Female,45-54 years,,,0,81
+2/1/20,5/16/20,Nebraska,Female,55-64 years,,22,,239
+2/1/20,5/16/20,Nebraska,Female,65-74 years,,29,,397
+2/1/20,5/16/20,Nebraska,Female,75-84 years,,50,,596
+2/1/20,5/16/20,Nebraska,Female,85 years and over,,82,,1058
+2/1/20,5/16/20,Nebraska,Female Total,"Female, all ages",24,194,17,2468
+2/1/20,5/16/20,Nebraska,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Nebraska Total,All sexes,All Ages,63,370,28,4834
+2/1/20,5/16/20,Nevada,Male,Under 1 year,0,0,0,15
+2/1/20,5/16/20,Nevada,Male,1-4 years,0,,0,
+2/1/20,5/16/20,Nevada,Male,5-14 years,0,,0,10
+2/1/20,5/16/20,Nevada,Male,15-24 years,,,0,72
+2/1/20,5/16/20,Nevada,Male,25-34 years,0,,0,116
+2/1/20,5/16/20,Nevada,Male,35-44 years,,11,0,177
+2/1/20,5/16/20,Nevada,Male,45-54 years,12,28,,300
+2/1/20,5/16/20,Nevada,Male,55-64 years,22,58,,678
+2/1/20,5/16/20,Nevada,Male,65-74 years,58,119,,1068
+2/1/20,5/16/20,Nevada,Male,75-84 years,36,106,,1139
+2/1/20,5/16/20,Nevada,Male,85 years and over,23,77,,845
+2/1/20,5/16/20,Nevada,Male Total,"Male, all ages",157,405,21,4424
+2/1/20,5/16/20,Nevada,Female,Under 1 year,0,0,0,12
+2/1/20,5/16/20,Nevada,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Nevada,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Nevada,Female,15-24 years,0,,0,27
+2/1/20,5/16/20,Nevada,Female,25-34 years,,,,51
+2/1/20,5/16/20,Nevada,Female,35-44 years,,,0,73
+2/1/20,5/16/20,Nevada,Female,45-54 years,,19,,179
+2/1/20,5/16/20,Nevada,Female,55-64 years,15,39,,435
+2/1/20,5/16/20,Nevada,Female,65-74 years,28,85,,767
+2/1/20,5/16/20,Nevada,Female,75-84 years,37,102,,910
+2/1/20,5/16/20,Nevada,Female,85 years and over,26,67,,1068
+2/1/20,5/16/20,Nevada,Female Total,"Female, all ages",118,321,17,3529
+2/1/20,5/16/20,Nevada,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Nevada Total,All sexes,All Ages,275,726,38,7953
+2/1/20,5/16/20,New Hampshire,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,New Hampshire,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,New Hampshire,Male,5-14 years,0,,0,
+2/1/20,5/16/20,New Hampshire,Male,15-24 years,,0,0,18
+2/1/20,5/16/20,New Hampshire,Male,25-34 years,0,0,0,56
+2/1/20,5/16/20,New Hampshire,Male,35-44 years,0,,0,52
+2/1/20,5/16/20,New Hampshire,Male,45-54 years,,,,126
+2/1/20,5/16/20,New Hampshire,Male,55-64 years,,19,0,270
+2/1/20,5/16/20,New Hampshire,Male,65-74 years,12,38,,449
+2/1/20,5/16/20,New Hampshire,Male,75-84 years,31,41,,492
+2/1/20,5/16/20,New Hampshire,Male,85 years and over,34,49,,533
+2/1/20,5/16/20,New Hampshire,Male Total,"Male, all ages",87,158,12,2007
+2/1/20,5/16/20,New Hampshire,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,New Hampshire,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,New Hampshire,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,New Hampshire,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,New Hampshire,Female,25-34 years,0,0,0,29
+2/1/20,5/16/20,New Hampshire,Female,35-44 years,0,0,0,33
+2/1/20,5/16/20,New Hampshire,Female,45-54 years,0,,0,81
+2/1/20,5/16/20,New Hampshire,Female,55-64 years,,11,,206
+2/1/20,5/16/20,New Hampshire,Female,65-74 years,,26,,315
+2/1/20,5/16/20,New Hampshire,Female,75-84 years,16,45,,449
+2/1/20,5/16/20,New Hampshire,Female,85 years and over,36,50,,826
+2/1/20,5/16/20,New Hampshire,Female Total,"Female, all ages",61,135,18,1956
+2/1/20,5/16/20,New Hampshire,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,New Hampshire Total,All sexes,All Ages,148,293,30,3963
+2/1/20,5/16/20,New Jersey,Male,Under 1 year,0,0,0,49
+2/1/20,5/16/20,New Jersey,Male,1-4 years,0,0,0,10
+2/1/20,5/16/20,New Jersey,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,New Jersey,Male,15-24 years,,,0,112
+2/1/20,5/16/20,New Jersey,Male,25-34 years,44,28,,338
+2/1/20,5/16/20,New Jersey,Male,35-44 years,111,82,,523
+2/1/20,5/16/20,New Jersey,Male,45-54 years,329,209,,1124
+2/1/20,5/16/20,New Jersey,Male,55-64 years,750,524,,2480
+2/1/20,5/16/20,New Jersey,Male,65-74 years,1012,738,11,3507
+2/1/20,5/16/20,New Jersey,Male,75-84 years,1260,930,20,4328
+2/1/20,5/16/20,New Jersey,Male,85 years and over,1233,1002,17,4828
+2/1/20,5/16/20,New Jersey,Male Total,"Male, all ages",4744,3514,65,17307
+2/1/20,5/16/20,New Jersey,Female,Under 1 year,0,,,46
+2/1/20,5/16/20,New Jersey,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,New Jersey,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,New Jersey,Female,15-24 years,,,0,37
+2/1/20,5/16/20,New Jersey,Female,25-34 years,18,17,,152
+2/1/20,5/16/20,New Jersey,Female,35-44 years,34,23,,223
+2/1/20,5/16/20,New Jersey,Female,45-54 years,99,74,,543
+2/1/20,5/16/20,New Jersey,Female,55-64 years,331,243,,1380
+2/1/20,5/16/20,New Jersey,Female,65-74 years,606,428,,2399
+2/1/20,5/16/20,New Jersey,Female,75-84 years,1059,788,12,4138
+2/1/20,5/16/20,New Jersey,Female,85 years and over,1899,1332,22,8222
+2/1/20,5/16/20,New Jersey,Female Total,"Female, all ages",4047,2908,50,17149
+2/1/20,5/16/20,New Jersey,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,New Jersey Total,All sexes,All Ages,8791,6422,115,34456
+2/1/20,5/16/20,New Mexico,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,New Mexico,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,New Mexico,Male,5-14 years,0,0,,
+2/1/20,5/16/20,New Mexico,Male,15-24 years,0,,0,37
+2/1/20,5/16/20,New Mexico,Male,25-34 years,,,0,108
+2/1/20,5/16/20,New Mexico,Male,35-44 years,,10,,160
+2/1/20,5/16/20,New Mexico,Male,45-54 years,,13,,208
+2/1/20,5/16/20,New Mexico,Male,55-64 years,10,30,,430
+2/1/20,5/16/20,New Mexico,Male,65-74 years,19,33,,572
+2/1/20,5/16/20,New Mexico,Male,75-84 years,15,61,,722
+2/1/20,5/16/20,New Mexico,Male,85 years and over,30,57,,633
+2/1/20,5/16/20,New Mexico,Male Total,"Male, all ages",94,214,14,2886
+2/1/20,5/16/20,New Mexico,Female,Under 1 year,0,0,0,10
+2/1/20,5/16/20,New Mexico,Female,1-4 years,0,0,,
+2/1/20,5/16/20,New Mexico,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,New Mexico,Female,15-24 years,0,0,,16
+2/1/20,5/16/20,New Mexico,Female,25-34 years,0,,0,38
+2/1/20,5/16/20,New Mexico,Female,35-44 years,,,,78
+2/1/20,5/16/20,New Mexico,Female,45-54 years,0,,,112
+2/1/20,5/16/20,New Mexico,Female,55-64 years,,24,,254
+2/1/20,5/16/20,New Mexico,Female,65-74 years,10,39,,445
+2/1/20,5/16/20,New Mexico,Female,75-84 years,23,58,,628
+2/1/20,5/16/20,New Mexico,Female,85 years and over,41,59,,935
+2/1/20,5/16/20,New Mexico,Female Total,"Female, all ages",84,193,13,2523
+2/1/20,5/16/20,New Mexico,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,New Mexico Total,All sexes,All Ages,178,407,27,5409
+2/1/20,5/16/20,New York,Male,Under 1 year,0,0,0,75
+2/1/20,5/16/20,New York,Male,1-4 years,0,0,,14
+2/1/20,5/16/20,New York,Male,5-14 years,,,0,18
+2/1/20,5/16/20,New York,Male,15-24 years,,,0,149
+2/1/20,5/16/20,New York,Male,25-34 years,28,19,,420
+2/1/20,5/16/20,New York,Male,35-44 years,83,49,,542
+2/1/20,5/16/20,New York,Male,45-54 years,263,185,,1135
+2/1/20,5/16/20,New York,Male,55-64 years,639,501,15,2763
+2/1/20,5/16/20,New York,Male,65-74 years,1017,837,26,4215
+2/1/20,5/16/20,New York,Male,75-84 years,1143,1017,24,5077
+2/1/20,5/16/20,New York,Male,85 years and over,1131,1141,28,5914
+2/1/20,5/16/20,New York,Male Total,"Male, all ages",4310,3756,104,20322
+2/1/20,5/16/20,New York,Female,Under 1 year,0,0,0,61
+2/1/20,5/16/20,New York,Female,1-4 years,0,0,,
+2/1/20,5/16/20,New York,Female,5-14 years,0,0,,19
+2/1/20,5/16/20,New York,Female,15-24 years,,,,69
+2/1/20,5/16/20,New York,Female,25-34 years,12,,0,174
+2/1/20,5/16/20,New York,Female,35-44 years,28,22,,275
+2/1/20,5/16/20,New York,Female,45-54 years,85,64,,599
+2/1/20,5/16/20,New York,Female,55-64 years,308,280,13,1745
+2/1/20,5/16/20,New York,Female,65-74 years,555,516,11,3044
+2/1/20,5/16/20,New York,Female,75-84 years,952,832,19,4750
+2/1/20,5/16/20,New York,Female,85 years and over,1758,1504,42,9624
+2/1/20,5/16/20,New York,Female Total,"Female, all ages",3700,3230,96,20365
+2/1/20,5/16/20,New York,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,New York Total,All sexes,All Ages,8010,6986,200,40689
+2/1/20,5/16/20,New York City,Male,Under 1 year,,,,65
+2/1/20,5/16/20,New York City,Male,1-4 years,,,0,
+2/1/20,5/16/20,New York City,Male,5-14 years,,0,,19
+2/1/20,5/16/20,New York City,Male,15-24 years,20,,,119
+2/1/20,5/16/20,New York City,Male,25-34 years,92,46,,362
+2/1/20,5/16/20,New York City,Male,35-44 years,317,124,22,753
+2/1/20,5/16/20,New York City,Male,45-54 years,791,362,69,1634
+2/1/20,5/16/20,New York City,Male,55-64 years,1780,852,145,3591
+2/1/20,5/16/20,New York City,Male,65-74 years,2629,1297,137,5099
+2/1/20,5/16/20,New York City,Male,75-84 years,2500,1337,105,5331
+2/1/20,5/16/20,New York City,Male,85 years and over,1703,993,74,4630
+2/1/20,5/16/20,New York City,Male Total,"Male, all ages",9838,5022,565,21612
+2/1/20,5/16/20,New York City,Female,Under 1 year,,0,0,48
+2/1/20,5/16/20,New York City,Female,1-4 years,,,0,
+2/1/20,5/16/20,New York City,Female,5-14 years,,,0,14
+2/1/20,5/16/20,New York City,Female,15-24 years,,,,50
+2/1/20,5/16/20,New York City,Female,25-34 years,43,19,,162
+2/1/20,5/16/20,New York City,Female,35-44 years,97,40,,287
+2/1/20,5/16/20,New York City,Female,45-54 years,303,138,33,736
+2/1/20,5/16/20,New York City,Female,55-64 years,802,410,67,1835
+2/1/20,5/16/20,New York City,Female,65-74 years,1388,718,86,3227
+2/1/20,5/16/20,New York City,Female,75-84 years,1820,1010,86,4446
+2/1/20,5/16/20,New York City,Female,85 years and over,2208,1242,88,7420
+2/1/20,5/16/20,New York City,Female Total,"Female, all ages",6670,3584,372,18231
+2/1/20,5/16/20,New York City,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,New York City Total,All sexes,All Ages,16508,8606,937,39844
+2/1/20,5/16/20,North Carolina,Male,Under 1 year,0,,,70
+2/1/20,5/16/20,North Carolina,Male,1-4 years,0,0,,
+2/1/20,5/16/20,North Carolina,Male,5-14 years,0,0,0,12
+2/1/20,5/16/20,North Carolina,Male,15-24 years,0,,,146
+2/1/20,5/16/20,North Carolina,Male,25-34 years,,,0,233
+2/1/20,5/16/20,North Carolina,Male,35-44 years,,,,333
+2/1/20,5/16/20,North Carolina,Male,45-54 years,,28,,538
+2/1/20,5/16/20,North Carolina,Male,55-64 years,,63,26,1272
+2/1/20,5/16/20,North Carolina,Male,65-74 years,27,149,17,2032
+2/1/20,5/16/20,North Carolina,Male,75-84 years,31,153,14,2226
+2/1/20,5/16/20,North Carolina,Male,85 years and over,21,155,13,1825
+2/1/20,5/16/20,North Carolina,Male Total,"Male, all ages",92,561,85,8696
+2/1/20,5/16/20,North Carolina,Female,Under 1 year,0,,0,55
+2/1/20,5/16/20,North Carolina,Female,1-4 years,0,0,,
+2/1/20,5/16/20,North Carolina,Female,5-14 years,0,,,19
+2/1/20,5/16/20,North Carolina,Female,15-24 years,0,,,57
+2/1/20,5/16/20,North Carolina,Female,25-34 years,0,,,129
+2/1/20,5/16/20,North Carolina,Female,35-44 years,0,,,178
+2/1/20,5/16/20,North Carolina,Female,45-54 years,,21,10,418
+2/1/20,5/16/20,North Carolina,Female,55-64 years,,59,16,945
+2/1/20,5/16/20,North Carolina,Female,65-74 years,,99,27,1608
+2/1/20,5/16/20,North Carolina,Female,75-84 years,22,153,18,2231
+2/1/20,5/16/20,North Carolina,Female,85 years and over,21,214,20,3057
+2/1/20,5/16/20,North Carolina,Female Total,"Female, all ages",58,557,101,8704
+2/1/20,5/16/20,North Carolina,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,North Carolina Total,All sexes,All Ages,150,1118,186,17402
+2/1/20,5/16/20,North Dakota,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,North Dakota,Male,1-4 years,0,0,0,0
+2/1/20,5/16/20,North Dakota,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,North Dakota,Male,15-24 years,0,0,0,13
+2/1/20,5/16/20,North Dakota,Male,25-34 years,0,0,0,29
+2/1/20,5/16/20,North Dakota,Male,35-44 years,,,,47
+2/1/20,5/16/20,North Dakota,Male,45-54 years,0,10,0,57
+2/1/20,5/16/20,North Dakota,Male,55-64 years,,16,0,137
+2/1/20,5/16/20,North Dakota,Male,65-74 years,,20,,203
+2/1/20,5/16/20,North Dakota,Male,75-84 years,,24,,227
+2/1/20,5/16/20,North Dakota,Male,85 years and over,,23,,235
+2/1/20,5/16/20,North Dakota,Male Total,"Male, all ages",15,97,,956
+2/1/20,5/16/20,North Dakota,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,North Dakota,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,North Dakota,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,North Dakota,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,North Dakota,Female,25-34 years,0,0,0,11
+2/1/20,5/16/20,North Dakota,Female,35-44 years,0,,0,18
+2/1/20,5/16/20,North Dakota,Female,45-54 years,0,,,30
+2/1/20,5/16/20,North Dakota,Female,55-64 years,,,0,71
+2/1/20,5/16/20,North Dakota,Female,65-74 years,,15,,125
+2/1/20,5/16/20,North Dakota,Female,75-84 years,,17,,219
+2/1/20,5/16/20,North Dakota,Female,85 years and over,,30,0,397
+2/1/20,5/16/20,North Dakota,Female Total,"Female, all ages",,70,11,883
+2/1/20,5/16/20,North Dakota,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,North Dakota Total,All sexes,All Ages,23,167,19,1839
+2/1/20,5/16/20,Ohio,Male,Under 1 year,0,0,0,123
+2/1/20,5/16/20,Ohio,Male,1-4 years,0,0,,20
+2/1/20,5/16/20,Ohio,Male,5-14 years,0,,0,31
+2/1/20,5/16/20,Ohio,Male,15-24 years,0,,,200
+2/1/20,5/16/20,Ohio,Male,25-34 years,,10,,546
+2/1/20,5/16/20,Ohio,Male,35-44 years,,20,,681
+2/1/20,5/16/20,Ohio,Male,45-54 years,21,50,10,1071
+2/1/20,5/16/20,Ohio,Male,55-64 years,49,150,28,2670
+2/1/20,5/16/20,Ohio,Male,65-74 years,117,275,31,3902
+2/1/20,5/16/20,Ohio,Male,75-84 years,149,332,22,4206
+2/1/20,5/16/20,Ohio,Male,85 years and over,138,331,13,4039
+2/1/20,5/16/20,Ohio,Male Total,"Male, all ages",483,1173,114,17489
+2/1/20,5/16/20,Ohio,Female,Under 1 year,0,,0,89
+2/1/20,5/16/20,Ohio,Female,1-4 years,0,0,0,14
+2/1/20,5/16/20,Ohio,Female,5-14 years,0,0,,20
+2/1/20,5/16/20,Ohio,Female,15-24 years,0,,,86
+2/1/20,5/16/20,Ohio,Female,25-34 years,0,,,258
+2/1/20,5/16/20,Ohio,Female,35-44 years,,,,368
+2/1/20,5/16/20,Ohio,Female,45-54 years,,47,,738
+2/1/20,5/16/20,Ohio,Female,55-64 years,30,113,18,1750
+2/1/20,5/16/20,Ohio,Female,65-74 years,68,190,24,2911
+2/1/20,5/16/20,Ohio,Female,75-84 years,143,285,28,4157
+2/1/20,5/16/20,Ohio,Female,85 years and over,180,388,32,6578
+2/1/20,5/16/20,Ohio,Female Total,"Female, all ages",433,1043,128,16969
+2/1/20,5/16/20,Ohio,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Ohio Total,All sexes,All Ages,916,2216,242,34458
+2/1/20,5/16/20,Oklahoma,Male,Under 1 year,0,,0,36
+2/1/20,5/16/20,Oklahoma,Male,1-4 years,0,0,0,10
+2/1/20,5/16/20,Oklahoma,Male,5-14 years,0,0,,10
+2/1/20,5/16/20,Oklahoma,Male,15-24 years,,,0,71
+2/1/20,5/16/20,Oklahoma,Male,25-34 years,,,,141
+2/1/20,5/16/20,Oklahoma,Male,35-44 years,,12,,212
+2/1/20,5/16/20,Oklahoma,Male,45-54 years,,23,,362
+2/1/20,5/16/20,Oklahoma,Male,55-64 years,15,71,11,965
+2/1/20,5/16/20,Oklahoma,Male,65-74 years,32,122,,1288
+2/1/20,5/16/20,Oklahoma,Male,75-84 years,27,151,11,1340
+2/1/20,5/16/20,Oklahoma,Male,85 years and over,25,124,,1095
+2/1/20,5/16/20,Oklahoma,Male Total,"Male, all ages",109,511,45,5530
+2/1/20,5/16/20,Oklahoma,Female,Under 1 year,0,0,0,24
+2/1/20,5/16/20,Oklahoma,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Oklahoma,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Oklahoma,Female,15-24 years,0,,0,35
+2/1/20,5/16/20,Oklahoma,Female,25-34 years,,,,59
+2/1/20,5/16/20,Oklahoma,Female,35-44 years,0,,,109
+2/1/20,5/16/20,Oklahoma,Female,45-54 years,,13,,233
+2/1/20,5/16/20,Oklahoma,Female,55-64 years,13,66,12,602
+2/1/20,5/16/20,Oklahoma,Female,65-74 years,25,116,13,1007
+2/1/20,5/16/20,Oklahoma,Female,75-84 years,19,126,11,1274
+2/1/20,5/16/20,Oklahoma,Female,85 years and over,34,130,11,1682
+2/1/20,5/16/20,Oklahoma,Female Total,"Female, all ages",93,459,54,5035
+2/1/20,5/16/20,Oklahoma,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Oklahoma Total,All sexes,All Ages,202,970,99,10565
+2/1/20,5/16/20,Oregon,Male,Under 1 year,0,0,0,25
+2/1/20,5/16/20,Oregon,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Oregon,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Oregon,Male,15-24 years,0,,,63
+2/1/20,5/16/20,Oregon,Male,25-34 years,0,,0,132
+2/1/20,5/16/20,Oregon,Male,35-44 years,,,,150
+2/1/20,5/16/20,Oregon,Male,45-54 years,,12,,340
+2/1/20,5/16/20,Oregon,Male,55-64 years,,36,,725
+2/1/20,5/16/20,Oregon,Male,65-74 years,20,74,11,1264
+2/1/20,5/16/20,Oregon,Male,75-84 years,21,89,,1459
+2/1/20,5/16/20,Oregon,Male,85 years and over,22,80,,1326
+2/1/20,5/16/20,Oregon,Male Total,"Male, all ages",73,302,37,5500
+2/1/20,5/16/20,Oregon,Female,Under 1 year,0,0,0,21
+2/1/20,5/16/20,Oregon,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,Oregon,Female,5-14 years,0,0,,
+2/1/20,5/16/20,Oregon,Female,15-24 years,0,,0,22
+2/1/20,5/16/20,Oregon,Female,25-34 years,0,,,48
+2/1/20,5/16/20,Oregon,Female,35-44 years,,,,98
+2/1/20,5/16/20,Oregon,Female,45-54 years,,,,181
+2/1/20,5/16/20,Oregon,Female,55-64 years,,33,,491
+2/1/20,5/16/20,Oregon,Female,65-74 years,13,53,,952
+2/1/20,5/16/20,Oregon,Female,75-84 years,15,64,,1235
+2/1/20,5/16/20,Oregon,Female,85 years and over,23,102,,2000
+2/1/20,5/16/20,Oregon,Female Total,"Female, all ages",58,269,24,5055
+2/1/20,5/16/20,Oregon,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Oregon Total,All sexes,All Ages,131,571,61,10556
+2/1/20,5/16/20,Pennsylvania,Male,Under 1 year,0,,0,112
+2/1/20,5/16/20,Pennsylvania,Male,1-4 years,0,,0,18
+2/1/20,5/16/20,Pennsylvania,Male,5-14 years,0,0,,26
+2/1/20,5/16/20,Pennsylvania,Male,15-24 years,,,0,173
+2/1/20,5/16/20,Pennsylvania,Male,25-34 years,,12,,488
+2/1/20,5/16/20,Pennsylvania,Male,35-44 years,15,19,,589
+2/1/20,5/16/20,Pennsylvania,Male,45-54 years,77,74,,1086
+2/1/20,5/16/20,Pennsylvania,Male,55-64 years,211,196,13,2591
+2/1/20,5/16/20,Pennsylvania,Male,65-74 years,391,379,14,4002
+2/1/20,5/16/20,Pennsylvania,Male,75-84 years,532,521,28,4763
+2/1/20,5/16/20,Pennsylvania,Male,85 years and over,615,527,14,5163
+2/1/20,5/16/20,Pennsylvania,Male Total,"Male, all ages",1851,1732,79,19011
+2/1/20,5/16/20,Pennsylvania,Female,Under 1 year,0,0,0,77
+2/1/20,5/16/20,Pennsylvania,Female,1-4 years,0,,0,16
+2/1/20,5/16/20,Pennsylvania,Female,5-14 years,0,0,0,18
+2/1/20,5/16/20,Pennsylvania,Female,15-24 years,0,,0,69
+2/1/20,5/16/20,Pennsylvania,Female,25-34 years,,,0,221
+2/1/20,5/16/20,Pennsylvania,Female,35-44 years,10,14,,328
+2/1/20,5/16/20,Pennsylvania,Female,45-54 years,26,34,,650
+2/1/20,5/16/20,Pennsylvania,Female,55-64 years,126,146,17,1728
+2/1/20,5/16/20,Pennsylvania,Female,65-74 years,275,280,11,2999
+2/1/20,5/16/20,Pennsylvania,Female,75-84 years,439,407,35,4476
+2/1/20,5/16/20,Pennsylvania,Female,85 years and over,1004,800,34,8746
+2/1/20,5/16/20,Pennsylvania,Female Total,"Female, all ages",1882,1693,104,19328
+2/1/20,5/16/20,Pennsylvania,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Pennsylvania Total,All sexes,All Ages,3733,3425,183,38340
+2/1/20,5/16/20,Rhode Island,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Rhode Island,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Rhode Island,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Rhode Island,Male,15-24 years,0,0,0,
+2/1/20,5/16/20,Rhode Island,Male,25-34 years,,0,0,24
+2/1/20,5/16/20,Rhode Island,Male,35-44 years,,0,0,32
+2/1/20,5/16/20,Rhode Island,Male,45-54 years,,,0,85
+2/1/20,5/16/20,Rhode Island,Male,55-64 years,14,11,,196
+2/1/20,5/16/20,Rhode Island,Male,65-74 years,28,23,,271
+2/1/20,5/16/20,Rhode Island,Male,75-84 years,35,39,,361
+2/1/20,5/16/20,Rhode Island,Male,85 years and over,40,45,,444
+2/1/20,5/16/20,Rhode Island,Male Total,"Male, all ages",121,122,10,1429
+2/1/20,5/16/20,Rhode Island,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Rhode Island,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,Rhode Island,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Rhode Island,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Rhode Island,Female,25-34 years,,0,,12
+2/1/20,5/16/20,Rhode Island,Female,35-44 years,0,0,0,19
+2/1/20,5/16/20,Rhode Island,Female,45-54 years,,,0,50
+2/1/20,5/16/20,Rhode Island,Female,55-64 years,,,,121
+2/1/20,5/16/20,Rhode Island,Female,65-74 years,18,21,,201
+2/1/20,5/16/20,Rhode Island,Female,75-84 years,35,29,,377
+2/1/20,5/16/20,Rhode Island,Female,85 years and over,83,60,,758
+2/1/20,5/16/20,Rhode Island,Female Total,"Female, all ages",144,122,14,1549
+2/1/20,5/16/20,Rhode Island,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Rhode Island Total,All sexes,All Ages,265,244,24,2983
+2/1/20,5/16/20,South Carolina,Male,Under 1 year,0,,0,50
+2/1/20,5/16/20,South Carolina,Male,1-4 years,0,,0,11
+2/1/20,5/16/20,South Carolina,Male,5-14 years,0,0,0,14
+2/1/20,5/16/20,South Carolina,Male,15-24 years,0,,0,146
+2/1/20,5/16/20,South Carolina,Male,25-34 years,0,,,261
+2/1/20,5/16/20,South Carolina,Male,35-44 years,,,,307
+2/1/20,5/16/20,South Carolina,Male,45-54 years,,30,,600
+2/1/20,5/16/20,South Carolina,Male,55-64 years,23,76,,1349
+2/1/20,5/16/20,South Carolina,Male,65-74 years,35,114,12,1976
+2/1/20,5/16/20,South Carolina,Male,75-84 years,62,160,11,2115
+2/1/20,5/16/20,South Carolina,Male,85 years and over,31,104,,1506
+2/1/20,5/16/20,South Carolina,Male Total,"Male, all ages",157,500,48,8335
+2/1/20,5/16/20,South Carolina,Female,Under 1 year,0,0,0,37
+2/1/20,5/16/20,South Carolina,Female,1-4 years,0,0,,
+2/1/20,5/16/20,South Carolina,Female,5-14 years,0,0,0,11
+2/1/20,5/16/20,South Carolina,Female,15-24 years,0,0,0,47
+2/1/20,5/16/20,South Carolina,Female,25-34 years,,,,124
+2/1/20,5/16/20,South Carolina,Female,35-44 years,0,,,197
+2/1/20,5/16/20,South Carolina,Female,45-54 years,,23,,396
+2/1/20,5/16/20,South Carolina,Female,55-64 years,17,64,,850
+2/1/20,5/16/20,South Carolina,Female,65-74 years,48,113,,1448
+2/1/20,5/16/20,South Carolina,Female,75-84 years,42,123,12,1853
+2/1/20,5/16/20,South Carolina,Female,85 years and over,39,164,11,2454
+2/1/20,5/16/20,South Carolina,Female Total,"Female, all ages",154,496,46,7425
+2/1/20,5/16/20,South Carolina,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,South Carolina Total,All sexes,All Ages,311,996,94,15760
+2/1/20,5/16/20,South Dakota,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,South Dakota,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,South Dakota,Male,5-14 years,0,0,,
+2/1/20,5/16/20,South Dakota,Male,15-24 years,0,0,0,11
+2/1/20,5/16/20,South Dakota,Male,25-34 years,0,0,0,21
+2/1/20,5/16/20,South Dakota,Male,35-44 years,0,,0,43
+2/1/20,5/16/20,South Dakota,Male,45-54 years,,,0,50
+2/1/20,5/16/20,South Dakota,Male,55-64 years,,16,,164
+2/1/20,5/16/20,South Dakota,Male,65-74 years,,21,,240
+2/1/20,5/16/20,South Dakota,Male,75-84 years,0,28,,315
+2/1/20,5/16/20,South Dakota,Male,85 years and over,,29,,360
+2/1/20,5/16/20,South Dakota,Male Total,"Male, all ages",17,100,14,1215
+2/1/20,5/16/20,South Dakota,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,South Dakota,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,South Dakota,Female,5-14 years,0,,0,
+2/1/20,5/16/20,South Dakota,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,South Dakota,Female,25-34 years,0,,0,
+2/1/20,5/16/20,South Dakota,Female,35-44 years,0,,0,24
+2/1/20,5/16/20,South Dakota,Female,45-54 years,,,0,34
+2/1/20,5/16/20,South Dakota,Female,55-64 years,,,,122
+2/1/20,5/16/20,South Dakota,Female,65-74 years,,18,,187
+2/1/20,5/16/20,South Dakota,Female,75-84 years,,17,,239
+2/1/20,5/16/20,South Dakota,Female,85 years and over,,31,,517
+2/1/20,5/16/20,South Dakota,Female Total,"Female, all ages",17,82,,1139
+2/1/20,5/16/20,South Dakota,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,South Dakota Total,All sexes,All Ages,34,182,21,2354
+2/1/20,5/16/20,Tennessee,Male,Under 1 year,,,0,86
+2/1/20,5/16/20,Tennessee,Male,1-4 years,0,0,0,20
+2/1/20,5/16/20,Tennessee,Male,5-14 years,0,0,,30
+2/1/20,5/16/20,Tennessee,Male,15-24 years,0,,,200
+2/1/20,5/16/20,Tennessee,Male,25-34 years,0,,,364
+2/1/20,5/16/20,Tennessee,Male,35-44 years,,22,,496
+2/1/20,5/16/20,Tennessee,Male,45-54 years,,53,,910
+2/1/20,5/16/20,Tennessee,Male,55-64 years,24,153,14,2045
+2/1/20,5/16/20,Tennessee,Male,65-74 years,37,221,22,2732
+2/1/20,5/16/20,Tennessee,Male,75-84 years,44,247,10,2809
+2/1/20,5/16/20,Tennessee,Male,85 years and over,16,191,,2005
+2/1/20,5/16/20,Tennessee,Male Total,"Male, all ages",133,898,61,11697
+2/1/20,5/16/20,Tennessee,Female,Under 1 year,0,0,0,66
+2/1/20,5/16/20,Tennessee,Female,1-4 years,0,0,0,12
+2/1/20,5/16/20,Tennessee,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Tennessee,Female,15-24 years,0,,0,66
+2/1/20,5/16/20,Tennessee,Female,25-34 years,0,,,200
+2/1/20,5/16/20,Tennessee,Female,35-44 years,,19,,313
+2/1/20,5/16/20,Tennessee,Female,45-54 years,,33,,578
+2/1/20,5/16/20,Tennessee,Female,55-64 years,14,100,11,1359
+2/1/20,5/16/20,Tennessee,Female,65-74 years,21,170,11,2110
+2/1/20,5/16/20,Tennessee,Female,75-84 years,30,236,14,2663
+2/1/20,5/16/20,Tennessee,Female,85 years and over,30,210,12,3471
+2/1/20,5/16/20,Tennessee,Female Total,"Female, all ages",100,778,61,10846
+2/1/20,5/16/20,Tennessee,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Tennessee Total,All sexes,All Ages,233,1676,122,22543
+2/1/20,5/16/20,Texas,Male,Under 1 year,0,,,271
+2/1/20,5/16/20,Texas,Male,1-4 years,0,,,58
+2/1/20,5/16/20,Texas,Male,5-14 years,0,,,86
+2/1/20,5/16/20,Texas,Male,15-24 years,0,13,0,615
+2/1/20,5/16/20,Texas,Male,25-34 years,,23,,978
+2/1/20,5/16/20,Texas,Male,35-44 years,17,60,,1260
+2/1/20,5/16/20,Texas,Male,45-54 years,39,134,14,2425
+2/1/20,5/16/20,Texas,Male,55-64 years,93,411,35,5327
+2/1/20,5/16/20,Texas,Male,65-74 years,154,626,31,7454
+2/1/20,5/16/20,Texas,Male,75-84 years,124,685,35,7704
+2/1/20,5/16/20,Texas,Male,85 years and over,110,548,25,6369
+2/1/20,5/16/20,Texas,Male Total,"Male, all ages",546,2508,154,32547
+2/1/20,5/16/20,Texas,Female,Under 1 year,0,0,0,190
+2/1/20,5/16/20,Texas,Female,1-4 years,0,,,48
+2/1/20,5/16/20,Texas,Female,5-14 years,0,,,68
+2/1/20,5/16/20,Texas,Female,15-24 years,,,,197
+2/1/20,5/16/20,Texas,Female,25-34 years,,12,,394
+2/1/20,5/16/20,Texas,Female,35-44 years,10,40,13,697
+2/1/20,5/16/20,Texas,Female,45-54 years,24,100,21,1471
+2/1/20,5/16/20,Texas,Female,55-64 years,42,275,29,3427
+2/1/20,5/16/20,Texas,Female,65-74 years,71,435,38,5329
+2/1/20,5/16/20,Texas,Female,75-84 years,119,560,32,7189
+2/1/20,5/16/20,Texas,Female,85 years and over,137,679,29,9788
+2/1/20,5/16/20,Texas,Female Total,"Female, all ages",409,2113,171,28798
+2/1/20,5/16/20,Texas,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Texas Total,All sexes,All Ages,955,4621,325,61346
+2/1/20,5/16/20,Utah,Male,Under 1 year,0,,0,33
+2/1/20,5/16/20,Utah,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Utah,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Utah,Male,15-24 years,0,,0,60
+2/1/20,5/16/20,Utah,Male,25-34 years,,,,93
+2/1/20,5/16/20,Utah,Male,35-44 years,0,,,136
+2/1/20,5/16/20,Utah,Male,45-54 years,,,,211
+2/1/20,5/16/20,Utah,Male,55-64 years,,20,,396
+2/1/20,5/16/20,Utah,Male,65-74 years,,35,,628
+2/1/20,5/16/20,Utah,Male,75-84 years,,51,,780
+2/1/20,5/16/20,Utah,Male,85 years and over,,57,,755
+2/1/20,5/16/20,Utah,Male Total,"Male, all ages",33,181,27,3103
+2/1/20,5/16/20,Utah,Female,Under 1 year,0,,0,36
+2/1/20,5/16/20,Utah,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Utah,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Utah,Female,15-24 years,,,,21
+2/1/20,5/16/20,Utah,Female,25-34 years,0,,,59
+2/1/20,5/16/20,Utah,Female,35-44 years,0,,0,84
+2/1/20,5/16/20,Utah,Female,45-54 years,,,,133
+2/1/20,5/16/20,Utah,Female,55-64 years,,14,,273
+2/1/20,5/16/20,Utah,Female,65-74 years,,32,,434
+2/1/20,5/16/20,Utah,Female,75-84 years,,45,,707
+2/1/20,5/16/20,Utah,Female,85 years and over,11,47,,1061
+2/1/20,5/16/20,Utah,Female Total,"Female, all ages",33,150,13,2819
+2/1/20,5/16/20,Utah,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Utah Total,All sexes,All Ages,66,331,40,5922
+2/1/20,5/16/20,Vermont,Male,Under 1 year,0,,0,
+2/1/20,5/16/20,Vermont,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Vermont,Male,5-14 years,0,0,0,0
+2/1/20,5/16/20,Vermont,Male,15-24 years,0,0,0,
+2/1/20,5/16/20,Vermont,Male,25-34 years,0,0,0,22
+2/1/20,5/16/20,Vermont,Male,35-44 years,,,0,36
+2/1/20,5/16/20,Vermont,Male,45-54 years,,,,52
+2/1/20,5/16/20,Vermont,Male,55-64 years,,,,130
+2/1/20,5/16/20,Vermont,Male,65-74 years,,14,,185
+2/1/20,5/16/20,Vermont,Male,75-84 years,15,23,,263
+2/1/20,5/16/20,Vermont,Male,85 years and over,,27,,270
+2/1/20,5/16/20,Vermont,Male Total,"Male, all ages",30,72,10,965
+2/1/20,5/16/20,Vermont,Female,Under 1 year,0,0,0,0
+2/1/20,5/16/20,Vermont,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,Vermont,Female,5-14 years,0,0,0,0
+2/1/20,5/16/20,Vermont,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Vermont,Female,25-34 years,0,0,0,
+2/1/20,5/16/20,Vermont,Female,35-44 years,,0,0,13
+2/1/20,5/16/20,Vermont,Female,45-54 years,,,0,33
+2/1/20,5/16/20,Vermont,Female,55-64 years,0,,0,75
+2/1/20,5/16/20,Vermont,Female,65-74 years,,,,145
+2/1/20,5/16/20,Vermont,Female,75-84 years,,12,0,221
+2/1/20,5/16/20,Vermont,Female,85 years and over,,32,,403
+2/1/20,5/16/20,Vermont,Female Total,"Female, all ages",21,51,,901
+2/1/20,5/16/20,Vermont,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Vermont Total,All sexes,All Ages,51,123,14,1866
+2/1/20,5/16/20,Virginia,Male,Under 1 year,0,0,,68
+2/1/20,5/16/20,Virginia,Male,1-4 years,0,,0,
+2/1/20,5/16/20,Virginia,Male,5-14 years,0,0,,19
+2/1/20,5/16/20,Virginia,Male,15-24 years,0,,0,153
+2/1/20,5/16/20,Virginia,Male,25-34 years,0,,,291
+2/1/20,5/16/20,Virginia,Male,35-44 years,,,,428
+2/1/20,5/16/20,Virginia,Male,45-54 years,23,25,,739
+2/1/20,5/16/20,Virginia,Male,55-64 years,51,98,,1678
+2/1/20,5/16/20,Virginia,Male,65-74 years,96,161,19,2436
+2/1/20,5/16/20,Virginia,Male,75-84 years,139,223,10,2926
+2/1/20,5/16/20,Virginia,Male,85 years and over,115,185,12,2504
+2/1/20,5/16/20,Virginia,Male Total,"Male, all ages",430,705,61,11251
+2/1/20,5/16/20,Virginia,Female,Under 1 year,0,0,,51
+2/1/20,5/16/20,Virginia,Female,1-4 years,0,,0,11
+2/1/20,5/16/20,Virginia,Female,5-14 years,0,0,,15
+2/1/20,5/16/20,Virginia,Female,15-24 years,0,0,,42
+2/1/20,5/16/20,Virginia,Female,25-34 years,0,,,137
+2/1/20,5/16/20,Virginia,Female,35-44 years,,,,210
+2/1/20,5/16/20,Virginia,Female,45-54 years,10,26,,478
+2/1/20,5/16/20,Virginia,Female,55-64 years,35,84,10,1151
+2/1/20,5/16/20,Virginia,Female,65-74 years,81,125,,1882
+2/1/20,5/16/20,Virginia,Female,75-84 years,103,167,12,2717
+2/1/20,5/16/20,Virginia,Female,85 years and over,214,244,15,4153
+2/1/20,5/16/20,Virginia,Female Total,"Female, all ages",448,659,49,10847
+2/1/20,5/16/20,Virginia,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Virginia Total,All sexes,All Ages,878,1364,110,22099
+2/1/20,5/16/20,Washington,Male,Under 1 year,0,,0,50
+2/1/20,5/16/20,Washington,Male,1-4 years,0,0,0,14
+2/1/20,5/16/20,Washington,Male,5-14 years,0,0,0,17
+2/1/20,5/16/20,Washington,Male,15-24 years,,,0,144
+2/1/20,5/16/20,Washington,Male,25-34 years,0,,,242
+2/1/20,5/16/20,Washington,Male,35-44 years,,,,330
+2/1/20,5/16/20,Washington,Male,45-54 years,18,30,,576
+2/1/20,5/16/20,Washington,Male,55-64 years,45,105,11,1283
+2/1/20,5/16/20,Washington,Male,65-74 years,92,197,19,2099
+2/1/20,5/16/20,Washington,Male,75-84 years,115,226,,2272
+2/1/20,5/16/20,Washington,Male,85 years and over,136,219,,2272
+2/1/20,5/16/20,Washington,Male Total,"Male, all ages",416,796,56,9299
+2/1/20,5/16/20,Washington,Female,Under 1 year,0,0,0,42
+2/1/20,5/16/20,Washington,Female,1-4 years,0,,0,
+2/1/20,5/16/20,Washington,Female,5-14 years,0,0,0,10
+2/1/20,5/16/20,Washington,Female,15-24 years,0,,0,42
+2/1/20,5/16/20,Washington,Female,25-34 years,0,,,83
+2/1/20,5/16/20,Washington,Female,35-44 years,,,,158
+2/1/20,5/16/20,Washington,Female,45-54 years,12,21,,371
+2/1/20,5/16/20,Washington,Female,55-64 years,21,77,,829
+2/1/20,5/16/20,Washington,Female,65-74 years,55,121,,1494
+2/1/20,5/16/20,Washington,Female,75-84 years,98,181,15,2010
+2/1/20,5/16/20,Washington,Female,85 years and over,156,254,,3382
+2/1/20,5/16/20,Washington,Female Total,"Female, all ages",345,664,47,8426
+2/1/20,5/16/20,Washington,Unknown,All ages,0,0,0,
+2/1/20,5/16/20,Washington Total,All sexes,All Ages,761,1460,103,17726
+2/1/20,5/16/20,West Virginia,Male,Under 1 year,0,0,0,16
+2/1/20,5/16/20,West Virginia,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,West Virginia,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,West Virginia,Male,15-24 years,0,0,0,29
+2/1/20,5/16/20,West Virginia,Male,25-34 years,,,,79
+2/1/20,5/16/20,West Virginia,Male,35-44 years,0,,,133
+2/1/20,5/16/20,West Virginia,Male,45-54 years,0,,,215
+2/1/20,5/16/20,West Virginia,Male,55-64 years,,31,,488
+2/1/20,5/16/20,West Virginia,Male,65-74 years,,60,,759
+2/1/20,5/16/20,West Virginia,Male,75-84 years,,67,,785
+2/1/20,5/16/20,West Virginia,Male,85 years and over,,44,,555
+2/1/20,5/16/20,West Virginia,Male Total,"Male, all ages",20,216,30,3069
+2/1/20,5/16/20,West Virginia,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,West Virginia,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,West Virginia,Female,5-14 years,0,0,,
+2/1/20,5/16/20,West Virginia,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,West Virginia,Female,25-34 years,0,,,36
+2/1/20,5/16/20,West Virginia,Female,35-44 years,0,,,64
+2/1/20,5/16/20,West Virginia,Female,45-54 years,0,14,,125
+2/1/20,5/16/20,West Virginia,Female,55-64 years,0,28,,289
+2/1/20,5/16/20,West Virginia,Female,65-74 years,,40,,477
+2/1/20,5/16/20,West Virginia,Female,75-84 years,,55,,714
+2/1/20,5/16/20,West Virginia,Female,85 years and over,11,61,,869
+2/1/20,5/16/20,West Virginia,Female Total,"Female, all ages",22,205,27,2592
+2/1/20,5/16/20,West Virginia,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,West Virginia Total,All sexes,All Ages,42,421,57,5661
+2/1/20,5/16/20,Wisconsin,Male,Under 1 year,0,0,0,51
+2/1/20,5/16/20,Wisconsin,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Wisconsin,Male,5-14 years,0,0,,14
+2/1/20,5/16/20,Wisconsin,Male,15-24 years,,,,109
+2/1/20,5/16/20,Wisconsin,Male,25-34 years,,,,210
+2/1/20,5/16/20,Wisconsin,Male,35-44 years,,,,239
+2/1/20,5/16/20,Wisconsin,Male,45-54 years,16,20,,498
+2/1/20,5/16/20,Wisconsin,Male,55-64 years,28,52,10,1239
+2/1/20,5/16/20,Wisconsin,Male,65-74 years,59,98,20,1847
+2/1/20,5/16/20,Wisconsin,Male,75-84 years,64,149,17,2132
+2/1/20,5/16/20,Wisconsin,Male,85 years and over,53,153,14,2294
+2/1/20,5/16/20,Wisconsin,Male Total,"Male, all ages",230,481,78,8637
+2/1/20,5/16/20,Wisconsin,Female,Under 1 year,0,0,0,34
+2/1/20,5/16/20,Wisconsin,Female,1-4 years,0,0,0,
+2/1/20,5/16/20,Wisconsin,Female,5-14 years,0,0,0,13
+2/1/20,5/16/20,Wisconsin,Female,15-24 years,0,0,0,41
+2/1/20,5/16/20,Wisconsin,Female,25-34 years,,,,95
+2/1/20,5/16/20,Wisconsin,Female,35-44 years,,,,135
+2/1/20,5/16/20,Wisconsin,Female,45-54 years,,11,,304
+2/1/20,5/16/20,Wisconsin,Female,55-64 years,18,43,10,716
+2/1/20,5/16/20,Wisconsin,Female,65-74 years,27,80,,1251
+2/1/20,5/16/20,Wisconsin,Female,75-84 years,48,115,19,1965
+2/1/20,5/16/20,Wisconsin,Female,85 years and over,64,205,22,3666
+2/1/20,5/16/20,Wisconsin,Female Total,"Female, all ages",166,461,70,8229
+2/1/20,5/16/20,Wisconsin,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Wisconsin Total,All sexes,All Ages,396,942,148,16866
+2/1/20,5/16/20,Wyoming,Male,Under 1 year,0,0,0,
+2/1/20,5/16/20,Wyoming,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Wyoming,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Wyoming,Male,15-24 years,0,0,0,
+2/1/20,5/16/20,Wyoming,Male,25-34 years,0,,,32
+2/1/20,5/16/20,Wyoming,Male,35-44 years,0,0,0,33
+2/1/20,5/16/20,Wyoming,Male,45-54 years,,,0,42
+2/1/20,5/16/20,Wyoming,Male,55-64 years,0,,0,116
+2/1/20,5/16/20,Wyoming,Male,65-74 years,,11,,169
+2/1/20,5/16/20,Wyoming,Male,75-84 years,,12,0,160
+2/1/20,5/16/20,Wyoming,Male,85 years and over,0,15,0,160
+2/1/20,5/16/20,Wyoming,Male Total,"Male, all ages",,47,,726
+2/1/20,5/16/20,Wyoming,Female,Under 1 year,0,0,0,
+2/1/20,5/16/20,Wyoming,Female,1-4 years,0,0,0,0
+2/1/20,5/16/20,Wyoming,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Wyoming,Female,15-24 years,0,0,0,
+2/1/20,5/16/20,Wyoming,Female,25-34 years,0,0,,
+2/1/20,5/16/20,Wyoming,Female,35-44 years,0,,0,17
+2/1/20,5/16/20,Wyoming,Female,45-54 years,,,,32
+2/1/20,5/16/20,Wyoming,Female,55-64 years,0,,,57
+2/1/20,5/16/20,Wyoming,Female,65-74 years,,,,99
+2/1/20,5/16/20,Wyoming,Female,75-84 years,0,23,0,171
+2/1/20,5/16/20,Wyoming,Female,85 years and over,0,20,,246
+2/1/20,5/16/20,Wyoming,Female Total,"Female, all ages",,57,,640
+2/1/20,5/16/20,Wyoming,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Wyoming Total,All sexes,All Ages,,104,,1366
+2/1/20,5/16/20,Puerto Rico,Male,Under 1 year,0,0,0,11
+2/1/20,5/16/20,Puerto Rico,Male,1-4 years,0,0,0,
+2/1/20,5/16/20,Puerto Rico,Male,5-14 years,0,0,0,
+2/1/20,5/16/20,Puerto Rico,Male,15-24 years,0,0,0,42
+2/1/20,5/16/20,Puerto Rico,Male,25-34 years,,,,86
+2/1/20,5/16/20,Puerto Rico,Male,35-44 years,,13,0,110
+2/1/20,5/16/20,Puerto Rico,Male,45-54 years,,25,,241
+2/1/20,5/16/20,Puerto Rico,Male,55-64 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Male,65-74 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Male,75-84 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Male,85 years and over,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Male Total,"Male, all ages",13,42,,495
+2/1/20,5/16/20,Puerto Rico,Female,Under 1 year,0,0,0,14
+2/1/20,5/16/20,Puerto Rico,Female,1-4 years,,0,0,
+2/1/20,5/16/20,Puerto Rico,Female,5-14 years,0,0,0,
+2/1/20,5/16/20,Puerto Rico,Female,15-24 years,0,,0,10
+2/1/20,5/16/20,Puerto Rico,Female,25-34 years,0,0,0,23
+2/1/20,5/16/20,Puerto Rico,Female,35-44 years,0,,0,49
+2/1/20,5/16/20,Puerto Rico,Female,45-54 years,,18,,124
+2/1/20,5/16/20,Puerto Rico,Female,55-64 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Female,65-74 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Female,75-84 years,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Female,85 years and over,0,0,0,0
+2/1/20,5/16/20,Puerto Rico,Female Total,"Female, all ages",,24,,223
+2/1/20,5/16/20,Puerto Rico,Unknown,All ages,0,0,0,0
+2/1/20,5/16/20,Puerto Rico Total,All sexes,All Ages,17,66,,718
