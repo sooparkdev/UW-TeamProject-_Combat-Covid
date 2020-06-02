@@ -5,6 +5,8 @@ library("stringr")
 library("dplyr")
 library("tidyr")
 library("leaflet")
+library("geojson")
+library("geojsonio")
 
 health_df <- read.csv("data/us-deaths.csv", stringsAsFactors = FALSE)
 #us_coords <- read.csv("data/State.csv", stringsAsFactors = FALSE)
@@ -44,7 +46,14 @@ server_page_one <- function(input, output) {
   map <- leaflet(data = locations) %>%
     addProviderTiles("CartoDB.Positron") %>%
     setView(lng = -98.5556199, lat = 39.8097343, zoom = 4) %>%
-    addPolygons()
+    addCircles(
+      lat = ~latitude,
+      lng = ~longitude,
+      popup = ~label,
+      radius = ~ 50000,
+      stroke = FALSE
+    )
+  
   })
   
   # bins <- c(0, 10, 20, 50, 100, 200, 500, 1000, Inf)

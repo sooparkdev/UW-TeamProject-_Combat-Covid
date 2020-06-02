@@ -1,4 +1,3 @@
-
 State <- select(df_coords, State)
 
 page_one <- tabPanel(
@@ -15,7 +14,7 @@ page_one <- tabPanel(
     
     #Output of the interactive map
     mainPanel(
-      leafletOutput(outputId = "usmap")
+      leafletOutput(outputId = "usmap", height = 650, width = 910)
     ),
     position = "left",
     fluid = TRUE
