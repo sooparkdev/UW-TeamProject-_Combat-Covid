@@ -20,7 +20,7 @@ percentages_df <- health_df %>%
   arrange(Covid_death_percentage)
 
 server_page_three <- function(input, output) {
-  percentages2 = percentages_df[sample(nrow(percentages_df), 10), ]
+  percentages2 = percentages_df[sample(nrow(percentages_df), 50), ]
   output$mytable <- DT::renderDataTable({
     DT::datatable(percentages2[, input$checkboxID, drop = FALSE])
   })

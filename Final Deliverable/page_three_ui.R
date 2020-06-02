@@ -4,15 +4,17 @@ ui_page_three <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       conditionalPanel(
-        'input.dataset === "function_trial2"',
+        'input.dataset === "percentages_df"',
         checkboxGroupInput("checkboxID", "Columns in df to show:",
-                           names(function_trial2), selected = names(function_trial2))
+                           names(percentages_df),
+                           selected = names(percentages_df))
       ),
     ),
     mainPanel(
       tabsetPanel(
         id = 'dataset',
-        tabPanel("otherID", DT::dataTableOutput("mytable"))
+        tabPanel("Death Percentages per State",
+                 DT::dataTableOutput("mytable"))
       )
     )
   )
