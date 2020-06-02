@@ -23,7 +23,7 @@ page_two_ui <- tabPanel(
        
        # Ouput of the Bar graph
         mainPanel(
-          plotlyOutput(outputId = "bar", width = "100%", height = "400px", inline = FALSE)
+          plotOutput(outputId = "bar", width = "100%", height = "400px", inline = FALSE)
        )
      )
    )

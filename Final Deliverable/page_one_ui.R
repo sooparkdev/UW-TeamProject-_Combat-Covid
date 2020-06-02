@@ -1,4 +1,6 @@
-State <- select(df_coords, State)
+
+# Dataframe with only the 'State' column
+states <- select(df_for_map, State)
 
 page_one <- tabPanel(
   sidebarLayout(
@@ -8,16 +10,14 @@ page_one <- tabPanel(
       selectInput(
         inputId = "state",
         label = h2("Select the State of Your Interest"),
-        choices = State
+        choices = states
       )
     ),
     
     #Output of the interactive map
     mainPanel(
       leafletOutput(outputId = "usmap", height = 650, width = 910)
-    ),
-    position = "left",
-    fluid = TRUE
+    )
   )
 )
 

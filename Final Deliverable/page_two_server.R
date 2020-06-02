@@ -3,10 +3,10 @@ library("ggplot2")
 library("plotly")
 library("dplyr")
 
-health_df <- read.csv("data/info.dataset.csv", stringsAsFactors = FALSE)
+health_df <- read.csv("data/us-deaths.csv", stringsAsFactors = FALSE)
 
 page_two_server <- function(input, output) {
-  output$bar <- renderPlotly({
+  output$bar <- renderPlot({
     if(input$age > 84) {
       age_group = "85 years and over"
     } else if (input$age > 74) {
