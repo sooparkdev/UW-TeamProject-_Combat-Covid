@@ -19,7 +19,7 @@ page_two <- tabPanel("Bar Graph",
            label = h3("Age"),
            min = 1,
            max = 100,
-           value = 42   # is the default increment by 1?
+           value = 42  
            )
         ),
         
@@ -30,7 +30,7 @@ page_two <- tabPanel("Bar Graph",
     )
 )
 
-ui_page_two <- navbarPage (
-        "US Death Exploration", 
-        page_two
-)  
+# ui_page_two <- navbarPage (
+#         "US Death Exploration", 
+#         page_two
+# )  

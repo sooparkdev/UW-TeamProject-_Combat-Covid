@@ -21,7 +21,7 @@ page_one <- tabPanel("Interactive Map",
   )
 )
 
-ui_page_one <- navbarPage (
-  "US Death Exploration", 
-  page_one
-)
+# ui_page_one <- navbarPage (
+#   "US Death Exploration", 
+#   page_one
+# )
