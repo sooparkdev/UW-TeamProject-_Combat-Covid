@@ -7,9 +7,10 @@ source("page_one_ui.R")
 source("page_two_ui.R")
 source("page_three_ui.R")
 
-header <- dashboardHeader(title = strong("Death Rates"))
+header <- dashboardHeader(title = strong("Death Rates"), titleWidth = 250)
 
 sidebar <- dashboardSidebar(
+  width = 250,
   sidebarMenu(
     menuItem("Main Page", tabName = "main", icon = icon("home")),
     menuItem("US Map", tabName = "map", icon = icon("map")),
@@ -66,11 +67,17 @@ body <- dashboardBody(
                                 .content-wrapper, .right-side {
                                 background-color: #98C1D9;
                                 }
+                                
+                                /* scroll body color */
+                                .skin-blue .left-side, .skin-blue .wrapper {
+                                background-color: #98C1D9;
+                                }
 
                                 '))),
   tabItems(
     tabItem(tabName = "main",
             img(src = "home-banner.jpg", align = "middle", height = "100%", width = "100%"),
+            p("\n"),
             box(width = 12, title = strong("Overview"), p("The Coronavirus quickly became
             a growing cause of concern due to its rapid spread and ability
             to harm susceptible groups. The uncertainty surrounding this
@@ -93,8 +100,8 @@ body <- dashboardBody(
                   in order to make conclusions about which regions
                   might need additional help."))
     ),
-    tabItem(tabName = "map", page_one),
-    tabItem(tabName = "bars", page_two),
+    tabItem(tabName = "map", h2("Interactive Map: Occurences per State"), page_one),
+    tabItem(tabName = "bars",h2("Causes by Age and Sex"), page_two),
     tabItem(tabName = "table", h2("Death Percentages per State"), p("This table reveals the percentages of
                     deaths that are related to these causes. It also includes
                     the total number of deaths as a comparison"), page_three),
