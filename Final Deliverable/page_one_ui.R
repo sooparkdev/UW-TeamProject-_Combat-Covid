@@ -16,7 +16,7 @@ page_one <- tabPanel("Interactive Map",
     
     #Output of the interactive map
     mainPanel(
-      leafletOutput(outputId = "usmap", height = 650, width = 910)
+      leafletOutput(outputId = "usmap", height = 650, width = 800)
     )
   )
 )

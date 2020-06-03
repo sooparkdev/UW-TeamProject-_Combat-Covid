@@ -136,9 +136,6 @@ server <- function(input, output) {
     output$mytable <- DT::renderDataTable({
       DT::datatable(percentages2,
                     class = 'cell-border stripe', colnames = col_names,
-                    caption = "This table reveals the percentages of
-                    deaths that are related to these causes. It also includes
-                    the total number of deaths as a comparison",
                     options = list(lengthMenu = c(10, 25, 50)))
     })
 }
