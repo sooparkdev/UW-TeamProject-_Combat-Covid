@@ -86,7 +86,9 @@ body <- dashboardBody(
             may not be accurate for determining the behavior and impact of
             the virus in the future, it can be useful in order to examine patterns.")),
             box(title = strong("Data"), p("We collected a dataset from the",
-                                          tags$a(href="https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku?fbclid=IwAR2eaiTZ1LfuFQQ5EiJ8o1_a8r9zco3BbLfEzJ-rfLiYjMOQX1OwYZ4OCTo",
+                                          tags$a(href="https://data.cdc.gov/NCHS/
+                                                 Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku?
+                                                 fbclid=IwAR2eaiTZ1LfuFQQ5EiJ8o1_a8r9zco3BbLfEzJ-rfLiYjMOQX1OwYZ4OCTo",
                                                  "Centers for Disease Control"),
                                           "which contains data about COVID-19, Influenza, and
                   Pneumonia deaths by age, sex, and gender. Furthermore, this data
@@ -100,12 +102,32 @@ body <- dashboardBody(
                   in order to make conclusions about which regions
                   might need additional help."))
     ),
-    tabItem(tabName = "map", h2("Interactive Map: Occurences per State"), page_one),
-    tabItem(tabName = "bars",h2("Causes by Age and Sex"), page_two),
-    tabItem(tabName = "table", h2("Death Percentages per State"), p("This table reveals the percentages of
-                    deaths that are related to these causes. It also includes
-                    the total number of deaths as a comparison"), page_three),
-    tabItem(tabName = "sum")
+    tabItem(tabName = "map", h2("Interactive Map: Occurences per State"),
+                    box(width = 12, p("This interactive map displays occurences of death for different
+                    causes depending on the given state of reader's interest. It lets
+                    the reader compare the occurences for different states, and therby
+                    identify ones being most affected by different causes, especially
+                    the COVID-19 at this point in time. Allows readers to draw conclusions
+                    about the deadliness of each illness in each state.")), page_one),
+    tabItem(tabName = "bars",h2("Bar Graph: Causes by Age and Sex"), box(width = 12, p("The bar graph
+                    successfully renders a chart that represents the Covid-19 Deaths,
+                    Influenza Deaths, and Pneumonia Deaths based on what the user inputs
+                    for the Sex and Age. User has the option to choose Sex from radio buttons
+                    and Age from a slider input. The graph will illustrate three bar graphs that
+                    show the specific number of deaths for each causes of death that matches
+                    with what they input for their sex and age. Any combination of sex and age
+                    will appropriately render the chart. It allows the users to see which age group
+                    and sex is more susceptible to which disease")), page_two),
+    tabItem(tabName = "table", h2("Death Percentages per State"),
+                    box(width = 8, p("This table reveals the death percentages of
+                    Covid-19, Influenza, and Pneumonia. It also includes
+                    the total number of deaths as a comparison. This
+                    chart aims to reveal the ratios of causes of deaths
+                    in each state. These percentages aids in visualising the
+                    severity of these illnesses. This table can be used to
+                    easily view information regarding which type of death
+                                      is highest and where")), page_three),
+    tabItem(tabName = "sum", h2("Our Insights"))
   )
 )
 ui <- dashboardPage (
