@@ -1,5 +1,3 @@
-library("shiny")
-
 page_two <- tabPanel("Bar Graph",
     sidebarLayout(
              

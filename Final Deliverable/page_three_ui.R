@@ -1,5 +1,3 @@
-library("shiny")
-
 # makes UI page for table
 page_three <- tabPanel("Table",
     mainPanel(
