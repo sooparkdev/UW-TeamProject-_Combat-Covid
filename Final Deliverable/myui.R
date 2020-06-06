@@ -9,6 +9,8 @@ source("page_one_ui.R")
 source("page_two_ui.R")
 source("page_three_ui.R")
 
+health_df <- read.csv("data/us-deaths.csv", stringsAsFactors = FALSE)
+
 header <- dashboardHeader(title = strong("Death Rates"), titleWidth = 250)
 
 sidebar <- dashboardSidebar(
@@ -129,9 +131,53 @@ body <- dashboardBody(
                     severity of these illnesses. This table can be used to
                     easily view information regarding which type of death
                                       is highest and where")), page_three),
-    tabItem(tabName = "sum", h2("Our Insights"))
-  )
+    tabItem(tabName = "sum", h1("Our Insights"),
+            fluidRow(h3("Which age groups are most and least at risk of death from COVID-19?"),
+            box(p("\n", plotOutput("agebar", height = 200, width = 500)), width = 6),
+            box(p("\n","Based on our data, we found that the risk of death from
+              contracting the coronavirus increased with age. Our highest
+              death rates occurred among individuals above the age of 85 years
+              old and our lowest death rates occurred among individuals that were
+              under 1 year old and toddlers among the ages of 1-4. While the 85
+              year old and over age group is leading in death rates, we saw a
+              drastic death elevation after individuals reached 55 years old.
+              These numbers support the conclusion that increasing age certainly
+              drives death rates. On the other hand, we were able to see much
+              lower death rates among people who were younger than 45."))),
+            fluidRow(h3("Which regions of the United States were most affected by the COVID-19?"),
+            box(plotOutput("stategraph", height = 400, width = 400)),
+            box(p("\n","From the very beginning, we were interested in whether the
+              geographical region was related to increased cases of COVID-19.
+              Analyzing our data enabled us to see that Northeastern areas
+              generated the highest number of COVID deaths with New York
+              being the leading state. The broader implication of our graph
+              tells us which states in the United States are being most
+              impacted and in turn will provide the basis for further analysis
+              that can answer why these states are most impacted and what
+              measures they can take to decrease their infection and death tolls."))),
+            fluidRow(h3("Does sex have any correlation to death rates among Covid-19, Pneumonia, and Influenza?"),
+            box(p("\n", plotOutput("sexchart", height = 400, width = 200), width = 0.5)),
+            box(p("\n","In our research, we wanted to see if the death caused by Covid-19,
+              Pneumonia, or Influenza were influenced by sex. From our bar graph,
+              we can see that there is a direct correlation between the death
+              rates and sex. Disregardless of sex, pneumonia has always been
+              the highest among the three groups. On average, men are more
+              likely to contract Covid-19, which also means that the death
+              rate is higher. In younger children, girls are more likely to
+              contract Influenza, leading to a higher death rate. On the other
+              hand, young boys are more likely to contract pneumonia, resulting
+              in a higher death rate for pneumonia.  From these data, we were
+              able to find that sex itself wasn’t a huge factor when it comes
+              to people dying from certain illnesses. However, it is possible
+              to see that certain sex groups had a higher tendency to have
+              higher death rates in certain disease depending on their age
+              group. This, of course, isn’t the only factor that comes with it.
+              There are many other things these death rates depend on
+              like location and current health status.")))
+             )
+            )
 )
+  
 ui <- dashboardPage (
   header,
   sidebar,

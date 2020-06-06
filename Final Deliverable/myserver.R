@@ -138,5 +138,77 @@ server <- function(input, output) {
                     class = 'cell-border stripe', colnames = col_names,
                     options = list(lengthMenu = c(10, 25, 50)))
     })
+    
+    # creates bar chart filtering by age group, covid deaths, gender, and state
+    filtered_df <- health_df %>%
+      filter(Age.group != "All Ages") %>%
+      filter(Age.group != "All ages") %>%
+      filter(Age.group != "Male, all ages") %>%
+      filter(Age.group != "Female, all ages") %>%
+      filter(Sex == "All Sexes")
+
+    output$agebar <- renderPlot({
+        age_bar_graph <- ggplot(filtered_df, aes(x = Age.group, y = COVID.19.Deaths)) +
+          geom_bar(stat = "identity", width = .75) +
+          coord_flip() +
+          labs(
+            title = "Occurence of COVID 19 Death by Age Group",
+            x = "Age Group",
+            y = "Covid 19 Deaths"
+          )
+        return(age_bar_graph)
+      })
+    
+    state_df <- health_df %>%
+      group_by(State) %>%
+      # filters redundant information
+      filter(Age.group == "All Ages") %>%
+      filter(State != "United States") %>%
+      filter(State != "United States Total") %>%
+      summarize(
+        covid_death = sum(COVID.19.Deaths, na.rm = TRUE)
+      ) %>%
+      # arranges the dataframe in a descending order
+      arrange(-covid_death) %>%
+      # leaves only ten rows with the highest covid deaths
+      head(10)
+    
+    output$stategraph <- renderPlot({
+      pie_chart <- ggplot(data = state_df,
+                          aes(x = "", y = covid_death, color = State, fill = State)) +
+        geom_bar(stat = "identity", width = 1, color = "white") +
+        coord_polar("y", start = 0) +
+        # gets rid of unnecessary factors in the plot
+        ggtitle("Top 10 States with Highest COVID19 Deaths") +
+        theme(panel.background = element_blank(),
+              axis.line = element_blank(),
+              axis.text = element_blank(),
+              axis.ticks = element_blank(),
+              axis.title = element_blank(),
+        ) +
+        geom_text(aes(label = paste0(covid_death)),
+                  position = position_stack(vjust = 0.5), hjust = 0.5,
+                  color = "white", size = 2.8)
+      return(pie_chart)
+    })
+    
+    sex_df <- health_df %>%
+      filter(State == "United States") %>%
+      filter(Sex == "Male Total" | Sex == "Female Total") %>%
+      group_by(Sex) %>%
+      mutate(tot_death = sum(COVID.19.Deaths) + sum(Pneumonia.Deaths) + sum(Influenza.Deaths)) %>%
+      select(Sex, tot_death) %>%
+      mutate(all_gender = "Gender") 
+    
+    output$sexchart <- renderPlot({
+      ggplot(sex_df, aes(fill = Sex, x = all_gender, y = tot_death)) +
+        geom_bar(position = "dodge", stat = "identity") +
+        labs(
+          title = "Total Death Rates by Sex",
+          x = "Gender",
+          y = "Total Deaths"
+        )
+    })
 }
+
   

@@ -5,5 +5,3 @@ page_three <- tabPanel("Table",
     )
 )
 
-
-
