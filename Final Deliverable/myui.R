@@ -5,6 +5,7 @@ library("dplyr")
 library("leaflet")
 library("plotly")
 library("shinydashboard")
+library("lintr")
 source("page_one_ui.R")
 source("page_two_ui.R")
 source("page_three_ui.R")
@@ -13,6 +14,7 @@ health_df <- read.csv("data/us-deaths.csv", stringsAsFactors = FALSE)
 
 header <- dashboardHeader(title = strong("Death Rates"), titleWidth = 250)
 
+# Make sidebar
 sidebar <- dashboardSidebar(
   width = 250,
   sidebarMenu(
@@ -24,7 +26,7 @@ sidebar <- dashboardSidebar(
   )
 )
 
-
+# Themes and Colors
 body <- dashboardBody(
   tags$head(tags$style(HTML('
                                 /* logo */
@@ -47,23 +49,30 @@ body <- dashboardBody(
                                 background-color: #3D5A80;
                                 }
 
-                                /* active selected tab in the sidebarmenu */
-                                .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                                /* active selected tab in the
+                                sidebarmenu */
+                                .skin-blue .main-sidebar .sidebar .sidebar-menu
+                                .active a{
                                 background-color: #98C1D9;
                                 }
 
                                 /* other links in the sidebarmenu */
-                                .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                                .skin-blue .main-sidebar .sidebar
+                                .sidebar-menu a{
                                 background-color: #3D5A80;
                                 color: #FFFFFF;
                                 }
 
-                                /* other links in the sidebarmenu when hovered */
-                                .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                                /* other links in the sidebarmenu
+                                when hovered */
+                                .skin-blue .main-sidebar .sidebar
+                                .sidebar-menu a:hover{
                                 background-color: #293241;
                                 }
                                 /* toggle button when hovered  */
-                                .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                                .skin-blue .main-header
+                                .navbar
+                                .sidebar-toggle:hover{
                                 background-color: #293241;
                                 }
 
@@ -71,59 +80,82 @@ body <- dashboardBody(
                                 .content-wrapper, .right-side {
                                 background-color: #98C1D9;
                                 }
-                                
+
                                 /* scroll body color */
                                 .skin-blue .left-side, .skin-blue .wrapper {
                                 background-color: #98C1D9;
                                 }
 
                                 '))),
+  # Content for all pages
   tabItems(
     tabItem(tabName = "main",
-            img(src = "home-banner.jpg", align = "middle", height = "100%", width = "100%"),
+            img(src = "home-banner.jpg", align = "middle",
+                height = "100%", width = "100%"),
             p("\n"),
-            box(width = 12, title = strong("Overview"), p("The Coronavirus quickly became
+            box(width = 12, title = strong("Overview"),
+            p("The Coronavirus quickly became
             a growing cause of concern due to its rapid spread and ability
             to harm susceptible groups. The uncertainty surrounding this
             novel virus has led individuals to compare COVID-19 to similar
             illnesses such as the flu and pneumonia. While this comparison
             may not be accurate for determining the behavior and impact of
-            the virus in the future, it can be useful in order to examine patterns.")),
+            the virus in the future, it can be useful in order
+            to examine patterns.")),
             box(title = strong("Data"), p("We collected a dataset from the",
-                                          tags$a(href="https://data.cdc.gov/NCHS/
-                                                 Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku?
-                                                 fbclid=IwAR2eaiTZ1LfuFQQ5EiJ8o1_a8r9zco3BbLfEzJ-rfLiYjMOQX1OwYZ4OCTo",
-                                                 "Centers for Disease Control"),
-                                          "which contains data about COVID-19, Influenza, and
-                  Pneumonia deaths by age, sex, and gender. Furthermore, this data
-                                          is up to date as of May 2020, which makes it
-                                          more valuable as users are able to see
-                                          how these causes of death impacts different age groups, sex,
-                                          and its specific locations.")),
-            box(title = strong("Goal"), p("We will aim to uncover who is at most risk of death
-                  by each illness by looking at specific age groups and sex. Additionally, we will further examine
-                  which regions have been most affected by COVID-19 specifically,
-                  in order to make conclusions about which regions
-                  might need additional help."))
+                tags$a(href = "https://data.cdc.gov/NCHS/
+                Provisional-COVID-19-Death-Counts
+                -by-Sex-Age-and-S/9bhg-hcku?
+                fbclid=IwAR2eaiTZ1LfuFQQ5EiJ8o1_a8r9zco3BbLfEzJ-
+                rfLiYjMOQX1OwYZ4OCTo",
+                "Centers for Disease Control"),
+                "which contains data about COVID-19, Influenza, and
+                Pneumonia deaths by age, sex, and gender. Furthermore, this data
+                is up to date as of May 2020, which makes it
+                more valuable as users are able to see
+                how these causes of death impacts different age groups, sex,
+                and its specific locations.")),
+            box(title = strong("Goal"), p("We will aim to uncover
+                who is at most risk of death
+                by each illness by looking at specific age groups and sex.
+                Additionally, we will further examine
+                which regions have been most affected by COVID-19 specifically,
+                in order to make conclusions about which regions
+                might need additional help."))
     ),
     tabItem(tabName = "map", h2("Interactive Map: Occurences per State"),
-                    box(width = 12, p("This interactive map displays occurences of death for different
-                    causes depending on the given state of reader's interest. It lets
-                    the reader compare the occurences for different states, and therby
-                    identify ones being most affected by different causes, especially
-                    the COVID-19 at this point in time. Allows readers to draw conclusions
-                    about the deadliness of each illness in each state.")), page_one),
-    tabItem(tabName = "bars",h2("Bar Graph: Causes by Age and Sex"), box(width = 12, p("The bar graph
-                    successfully renders a chart that represents the Covid-19 Deaths,
-                    Influenza Deaths, and Pneumonia Deaths based on what the user inputs
-                    for the Sex and Age. User has the option to choose Sex from radio buttons
-                    and Age from a slider input. The graph will illustrate three bar graphs that
-                    show the specific number of deaths for each causes of death that matches
-                    with what they input for their sex and age. Any combination of sex and age
-                    will appropriately render the chart. It allows the users to see which age group
+                    box(width = 12, p("This interactive map
+                    displays occurences of death for different
+                    causes depending on the given state
+                    of reader's interest. It lets
+                    the reader compare the occurences
+                    for different states, and therby
+                    identify ones being most affected
+                    by different causes, especially
+                    the COVID-19 at this point in time.
+                    Allows readers to draw conclusions
+                    about the deadliness of each
+                    illness in each state.")), page_one),
+    tabItem(tabName = "bars", h2("Bar Graph: Causes by Age and Sex"),
+      box(width = 12, p("The bar graph
+                    successfully renders a chart that
+                    represents the Covid-19 Deaths,
+                    Influenza Deaths, and Pneumonia
+                    Deaths based on what the user inputs
+                    for the Sex and Age. User has the
+                    option to choose Sex from radio buttons
+                    and Age from a slider input. The graph
+                    will illustrate three bar graphs that
+                    show the specific number of deaths for
+                    each causes of death that matches
+                    with what they input for their sex and age.
+                    Any combination of sex and age
+                    will appropriately render the chart.
+                    It allows the users to see which age group
                     and sex is more susceptible to which disease")), page_two),
     tabItem(tabName = "table", h2("Death Percentages per State"),
-                    box(width = 8, p("This table reveals the death percentages of
+                    box(width = 8, p("This table reveals
+                    the death percentages of
                     Covid-19, Influenza, and Pneumonia. It also includes
                     the total number of deaths as a comparison. This
                     chart aims to reveal the ratios of causes of deaths
@@ -132,21 +164,28 @@ body <- dashboardBody(
                     easily view information regarding which type of death
                                       is highest and where")), page_three),
     tabItem(tabName = "sum", h1("Our Insights"),
-            fluidRow(h3("Which age groups are most and least at risk of death from COVID-19?"),
-            box(p("\n", plotOutput("agebar", height = 200, width = 500)), width = 6),
-            box(p("\n","Based on our data, we found that the risk of death from
+            fluidRow(h3("Which age groups are most and least
+                        at risk of death from COVID-19?"),
+            box(p("\n", plotOutput("agebar", height = 200, width = 500)),
+                width = 6),
+            box(p("\n", "Based on our data, we found that the risk of death from
               contracting the coronavirus increased with age. Our highest
               death rates occurred among individuals above the age of 85 years
-              old and our lowest death rates occurred among individuals that were
+              old and our lowest death rates occurred
+              among individuals that were
               under 1 year old and toddlers among the ages of 1-4. While the 85
               year old and over age group is leading in death rates, we saw a
               drastic death elevation after individuals reached 55 years old.
               These numbers support the conclusion that increasing age certainly
               drives death rates. On the other hand, we were able to see much
-              lower death rates among people who were younger than 45."))),
-            fluidRow(h3("Which regions of the United States were most affected by the COVID-19?"),
+              lower death rates among people who were younger than 45.
+              Thus, we found a direct correlation between higher age
+              with higher death rates from COVID 19."))),
+            fluidRow(h3("Which regions of the United States
+                        were most affected by the COVID-19?"),
             box(plotOutput("stategraph", height = 400, width = 400)),
-            box(p("\n","From the very beginning, we were interested in whether the
+            box(p("\n", "From the very beginning,
+              we were interested in whether the
               geographical region was related to increased cases of COVID-19.
               Analyzing our data enabled us to see that Northeastern areas
               generated the highest number of COVID deaths with New York
@@ -154,11 +193,28 @@ body <- dashboardBody(
               tells us which states in the United States are being most
               impacted and in turn will provide the basis for further analysis
               that can answer why these states are most impacted and what
-              measures they can take to decrease their infection and death tolls."))),
-            fluidRow(h3("Does sex have any correlation to death rates among Covid-19, Pneumonia, and Influenza?"),
-            box(p("\n", plotOutput("sexchart", height = 400, width = 200), width = 0.5)),
-            box(p("\n","In our research, we wanted to see if the death caused by Covid-19,
-              Pneumonia, or Influenza were influenced by sex. From our bar graph,
+              measures they can take to decrease their
+              infection and death tolls.
+              However, we can also extract other useful
+              information from this pie chart.
+              Though the majority of death tolls came from
+              the northeastern regions
+              of the United States, we are able to see
+              that high death tolls
+              were also visible in other parts of the United States,
+              like California,
+              which is on the other side of the country.
+              Thus, we can see that the
+              problem of COVID death rates are an important
+              issue all around the country."))),
+            fluidRow(h3("Does sex have any correlation to
+                        death rates among Covid-19, Pneumonia, and Influenza?"),
+            box(p("\n", plotOutput("sexchart", height = 400, width = 200),
+                  width = 0.5)),
+            box(p("\n", "In our research, we wanted to see
+              if the death caused by Covid-19,
+              Pneumonia, or Influenza were influenced by sex.
+              From our bar graph,
               we can see that there is a direct correlation between the death
               rates and sex. Disregardless of sex, pneumonia has always been
               the highest among the three groups. On average, men are more
@@ -177,8 +233,8 @@ body <- dashboardBody(
              )
             )
 )
-  
-ui <- dashboardPage (
+# puts together all pages
+ui <- dashboardPage(
   header,
   sidebar,
   body
